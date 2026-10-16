@@ -1,0 +1,12 @@
+import {spawnSync} from 'node:child_process';
+import {mkdirSync,readFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const p=JSON.parse(readFileSync(path.join(root,'project.json'),'utf8'));mkdirSync(path.join(root,'exports'),{recursive:true});
+const run=(bin,args)=>{const r=spawnSync(bin,args,{cwd:root,stdio:'inherit'});if(r.error)throw r.error;if(r.status!==0)process.exit(r.status??1);};
+const cli=path.join(root,'node_modules/@remotion/cli/remotion-cli.js');
+const common=['render','src/index.ts',p.composition,p.master??p.video,'--codec=h264','--image-format=png',`--crf=${p.master?10:16}`,`--pixel-format=${p.master?'yuv444p':'yuv420p'}`,'--concurrency=1','--offthreadvideo-cache-size-in-bytes=67108864'];
+if(p.master)common.push('--scale=2');run(process.execPath,[cli,...common]);
+if(p.master)run('ffmpeg',['-y','-i',p.master,'-map','0:v:0','-map','0:a:0','-vf','scale=1080:1920:flags=lanczos+accurate_rnd+full_chroma_int,format=yuv420p','-c:v','libx264','-preset','slow','-crf','14','-c:a','copy','-movflags','+faststart',p.video]);
+console.log(`Đã xuất ${p.video}`);

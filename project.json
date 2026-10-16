@@ -1,0 +1,15 @@
+{
+  "language": "vi",
+  "composition": "DienHong-Vertical",
+  "video": "exports/dien-hong.mp4",
+  "master": "exports/dien-hong-master.mp4",
+  "subtitles": "dien-hong/subtitles-95.srt",
+  "previewPort": 3051,
+  "voice": {
+    "name": "Hải Đăng",
+    "audition": 10,
+    "sourceRate": 0.93,
+    "approvedRate": 0.95,
+    "playbackRate": 1.021505376344086
+  }
+}

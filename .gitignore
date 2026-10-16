@@ -1,0 +1,15 @@
+node_modules/
+dist/
+exports/
+.cache/
+.env
+.env.*
+!.env.example
+*.log
+__pycache__/
+*.pyc
+**/voice/
+**/voice-haidang/
+**/concat.txt
+/public/chernobyl-ep01/*.wav
+.DS_Store

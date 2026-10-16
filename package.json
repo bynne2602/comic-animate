@@ -1,0 +1,31 @@
+{
+  "name": "history-vn",
+  "version": "1.0.0",
+  "description": "Lịch sử Việt — comic dọc",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/renderer": "4.0.535",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.535",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.ts --port=3041 --no-open",
+    "preview": "node tools/preview.mjs",
+    "render": "node tools/render.mjs",
+    "bundle": "remotion bundle src/index.ts --out-dir dist",
+    "audio:generate": "python dien-hong/build_audio.py",
+    "audio:align": "python dien-hong/align_audio.py",
+    "audio:timing": "python dien-hong/update_timing.py"
+  }
+}

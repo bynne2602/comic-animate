@@ -1,0 +1,175 @@
+{
+  "project": "history-vn",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 184,
+      "sha256": "81428577f4fb4af18cc7f39df359542881e46fc35a8caf86c36527f240180c14"
+    },
+    {
+      "path": ".prettierrc",
+      "bytes": 66,
+      "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+    },
+    {
+      "path": "content/music-seed.wav",
+      "bytes": 2374680,
+      "sha256": "a0b880dd0febe6ac009b8012946d1caa34ae82b7f203e416e1469d8d70aa5a01"
+    },
+    {
+      "path": "content/source-timeline.json",
+      "bytes": 9801,
+      "sha256": "4ae03841ded92a131b57764dc98140fc282423d71a89c03986fb93e211a0a5f9"
+    },
+    {
+      "path": "dien-hong/align_audio.py",
+      "bytes": 3163,
+      "sha256": "7870a3ca7b272e7596c29023d01b47355c95ed9e7269e32b4712734c905b6052"
+    },
+    {
+      "path": "dien-hong/archive-README.md",
+      "bytes": 3871,
+      "sha256": "a080fe809211b5fde457c7fc9a32288eec400d043700a8c0d460e1a3979bfa51"
+    },
+    {
+      "path": "dien-hong/archive-镜头表.md",
+      "bytes": 1982,
+      "sha256": "c2af752136f70e840c4fb4ee6ce00b999ac62ddb1dba06637b00d0538577eb73"
+    },
+    {
+      "path": "dien-hong/build_audio.py",
+      "bytes": 2624,
+      "sha256": "f78bddee4dc00362b454312cb0c5e85f0b509e8b06b83df0145cc315d2d096da"
+    },
+    {
+      "path": "dien-hong/narration.txt",
+      "bytes": 1990,
+      "sha256": "a6b4a4c67994ce01293111feb8a2995ada5bf60fb57b074ebfdb9065f8b4fdcb"
+    },
+    {
+      "path": "dien-hong/requirements-voice.txt",
+      "bytes": 38,
+      "sha256": "3c247fe73a4d15b78845777b8282b70361cb3a07e3fe16a85794a08c4dc204e1"
+    },
+    {
+      "path": "dien-hong/review.md",
+      "bytes": 1614,
+      "sha256": "fc73ca29cf890295b28d4738371dda1c24a170d2ecf9e124e60293e6f85e43dc"
+    },
+    {
+      "path": "dien-hong/subtitles-95.srt",
+      "bytes": 3889,
+      "sha256": "c2a960b2661f1f2d451b4a74bd150e81a26818903e50abde87c8dd9d0778082b"
+    },
+    {
+      "path": "dien-hong/update_timing.py",
+      "bytes": 1251,
+      "sha256": "92f772c74699ea6e7dc1a829b0dad6d6429541f0a41fff0fceea42b404b9971f"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 79,
+      "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+    },
+    {
+      "path": "exports/dien-hong.mp4",
+      "bytes": 24594180,
+      "sha256": "433ac03a0725e862aa0e4f56897727d3176104dc905afd539d2429bcac8c6f1d"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 137836,
+      "sha256": "556c8679e82dcc9edd40def41ee69a816f5e23987309f2ace2bf39a9a981d16f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 953,
+      "sha256": "0e6f93d8e8be6bd6befbae76fae7d62c098d5ef9a4a7a0be855af8bff9e7f4e4"
+    },
+    {
+      "path": "project.json",
+      "bytes": 378,
+      "sha256": "de66de40e4ffd6a3da0008189b8e10dd88737c9e104b1e9b51e231d48fe362e1"
+    },
+    {
+      "path": "public/dienhong-haidang/envelope.json",
+      "bytes": 8867,
+      "sha256": "7dff2b9eda0e4b555241d84bc2d39e11cc501cf8cba39990a35afd5705ca604b"
+    },
+    {
+      "path": "public/dienhong-haidang/music.wav",
+      "bytes": 2441392,
+      "sha256": "abdaf8c0bc08f18f46952c10c7800654a772638a38f23cd6c1c5606c6db779a0"
+    },
+    {
+      "path": "public/dienhong-haidang/narration.wav",
+      "bytes": 14561566,
+      "sha256": "582d18650a720ceb1ccdc19e74e03763853d443e490fb5a1a66df0983ac5faed"
+    },
+    {
+      "path": "public/dienhong-haidang/timeline.json",
+      "bytes": 9768,
+      "sha256": "abb6051e9b3f1da767255ddfacc522bbb15e0e1f35ecd94fbe7b0216e68df82e"
+    },
+    {
+      "path": "public/dienhong-haidang/voice-settings.json",
+      "bytes": 137,
+      "sha256": "c3b979388769e7a0052a1d593bf1d57498233eb29a4b395cadc4c8239bb04abb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2511,
+      "sha256": "cf1c0bd18c96ed730f18aad18d07b212e9eba0a008db70334634aa97cfd721c9"
+    },
+    {
+      "path": "remotion.config.ts",
+      "bytes": 181,
+      "sha256": "a7c68d72edeb750e4498b09f3ee017c7c303eaff9e0ca0a62362cfa25bf34cd0"
+    },
+    {
+      "path": "src/DepthScenery.tsx",
+      "bytes": 6549,
+      "sha256": "573230b870ddbd45028b2ef9f6221b79e2d5e78cba656241251733776a8afbd2"
+    },
+    {
+      "path": "src/DienHongVertical.tsx",
+      "bytes": 3318,
+      "sha256": "03b0706b40bb54751bf788abc5625262c494ddfb9398a7dec17f49adab9b3ef3"
+    },
+    {
+      "path": "src/HistoryWorld.tsx",
+      "bytes": 7429,
+      "sha256": "e09c0cca9178afc6fe10edaab051ede2c7e6d27c721d564c3688c29dffb42be3"
+    },
+    {
+      "path": "src/index.ts",
+      "bytes": 116,
+      "sha256": "37a3f372b32fab4c0604cae6589569572640b4a50b2447c26250ccf085c53e4e"
+    },
+    {
+      "path": "src/PortraitCast.tsx",
+      "bytes": 10317,
+      "sha256": "272fe742fbad3bbb787f29811b09041fac3ead367f8f9b1ab8fbfb8d3423ccc4"
+    },
+    {
+      "path": "tools/preview.mjs",
+      "bytes": 2050,
+      "sha256": "44e7405093f659ce970e703839b25b76787d4bf8e7007bf0f646f226466980ff"
+    },
+    {
+      "path": "tools/render.mjs",
+      "bytes": 1216,
+      "sha256": "5aed3c9923e114460ba1b2edf25eb6f6eafef6a9dd087a4c5e5c2ac008a0e781"
+    },
+    {
+      "path": "tools/watch.html",
+      "bytes": 748,
+      "sha256": "5594d31223a0368f6ec1e70fc85ee986ad04e540e05506a9eecdbf1e8ffa98b2"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 399,
+      "sha256": "f367cf226b1acef64d282487c0b336602aa55894d9ea42af2df232d4f7f0612c"
+    }
+  ]
+}

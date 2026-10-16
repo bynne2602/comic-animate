@@ -1,0 +1,333 @@
+{
+  "duration": 76.291083,
+  "fps": 30,
+  "voice": "Hải Đăng",
+  "engine": "VieNeu v3 Turbo",
+  "speed": 0.93,
+  "scenes": [
+    {
+      "kind": "summons",
+      "start": 0,
+      "end": 6.010688,
+      "text": "Một tờ chiếu được mở ra. Lần này, người được mời vào cung lại là các bô lão. Chuyện gì đang xảy ra ở Đại Việt?"
+    },
+    {
+      "kind": "threat",
+      "start": 6.010688,
+      "end": 12.195542,
+      "text": "Cuối năm một nghìn hai trăm tám mươi tư, nguy cơ quân Nguyên xâm lược đã cận kề. Triều Trần phải chuẩn bị cho một cuộc chiến lớn."
+    },
+    {
+      "kind": "journey",
+      "start": 12.195542,
+      "end": 19.749355,
+      "text": "Thượng hoàng Trần Thánh Tông triệu các phụ lão trong nước về điện Diên Hồng. Họ đến từ những làng quê, mang theo cả nỗi lo về ruộng đồng và gia đình."
+    },
+    {
+      "kind": "council",
+      "start": 19.749355,
+      "end": 26.358251,
+      "text": "Trong điện, câu hỏi được đặt ra: giặc đến, nên hòa hay nên đánh? Một câu hỏi ngắn, nhưng chẳng ai có thể trả lời cho nhẹ lòng."
+    },
+    {
+      "kind": "reaction",
+      "start": 26.358251,
+      "end": 32.544459,
+      "text": "Nếu là chuyện trong làng, các cụ còn có thể bàn đến chiều. Nhưng lần này, phía sau câu hỏi là vận mệnh của đất nước."
+    },
+    {
+      "kind": "answer",
+      "start": 32.544459,
+      "end": 40.014542,
+      "text": "Và lời đáp vang lên: đánh! Theo sử chép, các phụ lão cùng hô một tiếng, như từ một miệng. Cả điện Diên Hồng chung một câu trả lời."
+    },
+    {
+      "kind": "resolve",
+      "start": 40.014542,
+      "end": 46.718334,
+      "text": "Những mái đầu bạc ấy hiểu rằng kháng chiến sẽ có mất mát. Nhưng lời đáp cho thấy họ sẵn sàng cùng triều đình đối diện hiểm nguy."
+    },
+    {
+      "kind": "prepare",
+      "start": 46.718334,
+      "end": 53.416376,
+      "text": "Dĩ nhiên, hô xong thì giặc chưa tự quay về. Muốn giữ nước, vẫn phải luyện quân, chuẩn bị lương thảo, và để từng người góp sức."
+    },
+    {
+      "kind": "fight",
+      "start": 53.416376,
+      "end": 60.635918,
+      "text": "Năm sau, quân dân nhà Trần bước vào cuộc kháng chiến chống quân Nguyên. Những chiến thắng ở Hàm Tử, Chương Dương góp phần xoay chuyển cục diện."
+    },
+    {
+      "kind": "meaning",
+      "start": 60.635918,
+      "end": 67.676689,
+      "text": "Diên Hồng không tự mình tạo nên chiến thắng. Ý nghĩa của hội nghị nằm ở việc triều đình hỏi ý dân, và nhân dân cùng bày tỏ quyết tâm giữ nước."
+    },
+    {
+      "kind": "ending",
+      "start": 67.676689,
+      "end": 75.841085,
+      "text": "Từ một câu hỏi trong cung điện, tiếng đáp ấy đi vào ký ức dân tộc. Khi non sông gặp thử thách, sức mạnh bắt đầu từ những con người biết cùng đứng lên."
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 1.8,
+      "text": "Một tờ chiếu được mở ra."
+    },
+    {
+      "start": 1.8,
+      "end": 3.3,
+      "text": "Lần này, người được mời vào cung lại"
+    },
+    {
+      "start": 3.3,
+      "end": 4.54,
+      "text": "là các bô lão."
+    },
+    {
+      "start": 4.54,
+      "end": 6.010688,
+      "text": "Chuyện gì đang xảy ra ở Đại Việt?"
+    },
+    {
+      "start": 6.010688,
+      "end": 7.250688,
+      "text": "Cuối năm một nghìn hai trăm tám mươi"
+    },
+    {
+      "start": 7.250688,
+      "end": 9.310687999999999,
+      "text": "tư, nguy cơ quân Nguyên xâm lược đã"
+    },
+    {
+      "start": 9.310687999999999,
+      "end": 10.290688,
+      "text": "cận kề."
+    },
+    {
+      "start": 10.290688,
+      "end": 11.510688,
+      "text": "Triều Trần phải chuẩn bị cho một cuộc"
+    },
+    {
+      "start": 11.510688,
+      "end": 12.195542,
+      "text": "chiến lớn."
+    },
+    {
+      "start": 12.195542,
+      "end": 13.895541999999999,
+      "text": "Thượng hoàng Trần Thánh Tông triệu các phụ"
+    },
+    {
+      "start": 13.895541999999999,
+      "end": 15.855542,
+      "text": "lão trong nước về điện Diên Hồng."
+    },
+    {
+      "start": 15.855542,
+      "end": 17.755542,
+      "text": "Họ đến từ những làng quê, mang theo"
+    },
+    {
+      "start": 17.755542,
+      "end": 19.355542,
+      "text": "cả nỗi lo về ruộng đồng và gia"
+    },
+    {
+      "start": 19.355542,
+      "end": 19.749355,
+      "text": "đình."
+    },
+    {
+      "start": 19.749355,
+      "end": 21.449355,
+      "text": "Trong điện, câu hỏi được đặt ra:"
+    },
+    {
+      "start": 21.449355,
+      "end": 23.369355000000002,
+      "text": "giặc đến, nên hòa hay nên đánh?"
+    },
+    {
+      "start": 23.369355000000002,
+      "end": 25.049355000000002,
+      "text": "Một câu hỏi ngắn, nhưng chẳng ai có"
+    },
+    {
+      "start": 25.049355000000002,
+      "end": 26.358251,
+      "text": "thể trả lời cho nhẹ lòng."
+    },
+    {
+      "start": 26.358251,
+      "end": 28.218251,
+      "text": "Nếu là chuyện trong làng, các cụ còn"
+    },
+    {
+      "start": 28.218251,
+      "end": 29.658251,
+      "text": "có thể bàn đến chiều."
+    },
+    {
+      "start": 29.658251,
+      "end": 31.378251,
+      "text": "Nhưng lần này, phía sau câu hỏi là"
+    },
+    {
+      "start": 31.378251,
+      "end": 32.544459,
+      "text": "vận mệnh của đất nước."
+    },
+    {
+      "start": 32.544459,
+      "end": 33.764459,
+      "text": "Và lời đáp vang lên:"
+    },
+    {
+      "start": 33.764459,
+      "end": 34.324459000000004,
+      "text": "đánh!"
+    },
+    {
+      "start": 34.324459000000004,
+      "end": 35.904459,
+      "text": "Theo sử chép, các phụ lão cùng hô"
+    },
+    {
+      "start": 35.904459,
+      "end": 38.064459,
+      "text": "một tiếng, như từ một miệng."
+    },
+    {
+      "start": 38.064459,
+      "end": 39.544459,
+      "text": "Cả điện Diên Hồng chung một câu trả"
+    },
+    {
+      "start": 39.544459,
+      "end": 40.014542,
+      "text": "lời."
+    },
+    {
+      "start": 40.014542,
+      "end": 42.054542,
+      "text": "Những mái đầu bạc ấy hiểu rằng kháng"
+    },
+    {
+      "start": 42.054542,
+      "end": 43.374542,
+      "text": "chiến sẽ có mất mát."
+    },
+    {
+      "start": 43.374542,
+      "end": 45.014542,
+      "text": "Nhưng lời đáp cho thấy họ sẵn sàng"
+    },
+    {
+      "start": 45.014542,
+      "end": 46.718334,
+      "text": "cùng triều đình đối diện hiểm nguy."
+    },
+    {
+      "start": 46.718334,
+      "end": 48.258334,
+      "text": "Dĩ nhiên, hô xong thì giặc chưa tự"
+    },
+    {
+      "start": 48.258334,
+      "end": 49.298334,
+      "text": "quay về."
+    },
+    {
+      "start": 49.298334,
+      "end": 51.098334,
+      "text": "Muốn giữ nước, vẫn phải luyện quân, chuẩn"
+    },
+    {
+      "start": 51.098334,
+      "end": 53.058334,
+      "text": "bị lương thảo, và để từng người góp"
+    },
+    {
+      "start": 53.058334,
+      "end": 53.416376,
+      "text": "sức."
+    },
+    {
+      "start": 53.416376,
+      "end": 55.376376,
+      "text": "Năm sau, quân dân nhà Trần bước vào"
+    },
+    {
+      "start": 55.376376,
+      "end": 57.216376,
+      "text": "cuộc kháng chiến chống quân Nguyên."
+    },
+    {
+      "start": 57.216376,
+      "end": 59.136376,
+      "text": "Những chiến thắng ở Hàm Tử, Chương Dương"
+    },
+    {
+      "start": 59.136376,
+      "end": 60.635918,
+      "text": "góp phần xoay chuyển cục diện."
+    },
+    {
+      "start": 60.635918,
+      "end": 62.215917999999995,
+      "text": "Diên Hồng không tự mình tạo nên chiến"
+    },
+    {
+      "start": 62.215917999999995,
+      "end": 63.015918,
+      "text": "thắng."
+    },
+    {
+      "start": 63.015918,
+      "end": 64.475918,
+      "text": "Ý nghĩa của hội nghị nằm ở việc"
+    },
+    {
+      "start": 64.475918,
+      "end": 66.05591799999999,
+      "text": "triều đình hỏi ý dân, và nhân dân"
+    },
+    {
+      "start": 66.05591799999999,
+      "end": 67.676689,
+      "text": "cùng bày tỏ quyết tâm giữ nước."
+    },
+    {
+      "start": 67.676689,
+      "end": 69.516689,
+      "text": "Từ một câu hỏi trong cung điện, tiếng"
+    },
+    {
+      "start": 69.516689,
+      "end": 71.576689,
+      "text": "đáp ấy đi vào ký ức dân tộc."
+    },
+    {
+      "start": 71.576689,
+      "end": 73.63668899999999,
+      "text": "Khi non sông gặp thử thách, sức mạnh"
+    },
+    {
+      "start": 73.63668899999999,
+      "end": 75.13668899999999,
+      "text": "bắt đầu từ những con người biết cùng"
+    },
+    {
+      "start": 75.13668899999999,
+      "end": 75.841085,
+      "text": "đứng lên."
+    }
+  ],
+  "captionTiming": "Whisper base word timestamps matched against locked Vietnamese script"
+}
