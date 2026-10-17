@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2932,
-      "sha256": "5c84ad18e78437c806ad986ecad94f34ca86029feefffa76cb4a3b1cc3e57610"
+      "bytes": 4208,
+      "sha256": "c374295233d993d642c87e8668c2680ad48b03cb8af7b581d538e34fb887006b"
     },
     {
       "path": "remotion.config.ts",
