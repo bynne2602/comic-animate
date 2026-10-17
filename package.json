@@ -2,7 +2,7 @@
   "name": "history-vn",
   "version": "1.0.0",
   "description": "Lịch sử Việt — comic dọc",
-  "license": "UNLICENSED",
+  "license": "SEE LICENSE IN LICENSE",
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.535",

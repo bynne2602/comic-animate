@@ -76,4 +76,6 @@ Các lệnh `audio:*` chỉ tái tạo âm thanh Diên Hồng. WAV mẫu ở t�
 
 Repo riêng tư: [bynne2602/history-vn](https://github.com/bynne2602/history-vn). Mã nguồn và tài nguyên cần dựng được đưa lên Git; `node_modules/`, `exports/`, cache và file môi trường được bỏ qua. MP4 không đi kèm khi clone repo.
 
-Dự án giữ `private: true` và `UNLICENSED`. Thư viện, font và tư liệu lịch sử có điều kiện sử dụng riêng; xem ghi chú nguồn trước khi tái phân phối.
+**Bảo lưu mọi quyền. Phải xin phép và nhận chấp thuận bằng văn bản của chủ sở hữu trước khi sử dụng, sao chép, sửa đổi, phân phối hoặc khai thác thương mại**, trừ các quyền được pháp luật áp dụng cho phép. Xem đầy đủ tại [LICENSE](LICENSE).
+
+Liên hệ cấp phép: [bynne2602](https://github.com/bynne2602). Thư viện, font và tài nguyên của bên thứ ba vẫn tuân theo giấy phép riêng của chúng. Cấu hình npm giữ `private: true` và dẫn tới `LICENSE` để thể hiện điều khoản sử dụng của dự án.
