@@ -49,6 +49,8 @@ Trợ lý giữ phong cách nét vẽ và bố cục của tập mẫu, đồng 
 
 ## Nghe thử và chọn giọng TTS
 
+**TTS được tích hợp từ [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS), do Phạm Nguyễn Ngọc Bảo (pnnbao97) phát triển.** Comic Animate gọi thư viện Python `vieneu==3.8.3` để tạo âm thanh, không tự phát triển model TTS. Xem [ghi nhận bên thứ ba và giấy phép VieNeu](THIRD_PARTY_NOTICES.md).
+
 Mẫu tiếng Việt dùng VieNeu 3.8.3, v3 Turbo, với **25 giọng preset**. Xem [danh sách đầy đủ và hướng dẫn nghe thử](docs/tts-voices.md).
 
 Sau khi cài Python 3.11 và `python -m pip install vieneu==3.8.3`:
@@ -118,5 +120,7 @@ Các lệnh `audio:*` chỉ tái tạo âm thanh Diên Hồng. WAV mẫu ở t�
 ## Giấy phép
 
 [GNU GPLv3](LICENSE) (`GPL-3.0-only`).
+
+VieNeu-TTS và các thành phần bên thứ ba giữ giấy phép riêng; xem [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Copyright (c) 2026 bynne2602.

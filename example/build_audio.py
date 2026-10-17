@@ -1,3 +1,5 @@
+# Speech synthesis: VieNeu-TTS by Phạm Nguyễn Ngọc Bảo (pnnbao97).
+# https://github.com/pnnbao97/VieNeu-TTS — see THIRD_PARTY_NOTICES.md.
 import hashlib,json,subprocess
 from pathlib import Path
 from vieneu import Vieneu

@@ -1,5 +1,7 @@
 # Giọng TTS và cách nghe thử / TTS voice catalog
 
+**Powered by [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) — Phạm Nguyễn Ngọc Bảo (pnnbao97).** Model TTS và các giọng preset được cung cấp bởi VieNeu. Xem [ghi nhận nguồn và giấy phép](../THIRD_PARTY_NOTICES.md).
+
 Repo dùng **VieNeu 3.8.3, engine v3 Turbo** cho mẫu tiếng Việt. Danh sách dưới đây gồm đủ 25 preset đã kiểm tra bằng `Vieneu().list_preset_voices()`. Danh sách có thể khác khi đổi phiên bản hoặc engine; dùng `npm run voices:list` để kiểm tra môi trường của bạn. Tài liệu API: [VieNeu Voice Management](https://docs.vieneu.io/docs/api/voice-management/).
 
 ## Nghe trước khi chọn

@@ -49,6 +49,8 @@ Preserve the example's drawing style and layout while adapting the designs to th
 
 ## Audition and select a TTS voice
 
+**TTS is powered by [VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS), developed by Phạm Nguyễn Ngọc Bảo (pnnbao97).** Comic Animate calls the external Python package `vieneu==3.8.3` to synthesize speech; it does not develop its own TTS model. See [third-party attribution and the VieNeu license](THIRD_PARTY_NOTICES.md).
+
 The Vietnamese example uses VieNeu 3.8.3, v3 Turbo, with **25 preset voices**. See the [complete voice catalog and audition guide](docs/tts-voices.md), including an English quick start.
 
 After installing Python 3.11 and running `python -m pip install vieneu==3.8.3`:
@@ -118,5 +120,7 @@ These `audio:*` commands regenerate only the Vietnamese Diên Hồng example. It
 ## License
 
 [GNU GPLv3](LICENSE) (`GPL-3.0-only`).
+
+VieNeu-TTS and other third-party components retain their own licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Copyright (c) 2026 bynne2602.

@@ -1,3 +1,5 @@
+# VieNeu-TTS SDK: https://github.com/pnnbao97/VieNeu-TTS
+# Attribution and licenses: ../THIRD_PARTY_NOTICES.md
 vieneu==3.8.3
 faster-whisper
 numpy

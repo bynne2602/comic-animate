@@ -38,8 +38,8 @@
     },
     {
       "path": "example/build_audio.py",
-      "bytes": 2624,
-      "sha256": "f78bddee4dc00362b454312cb0c5e85f0b509e8b06b83df0145cc315d2d096da"
+      "bytes": 2774,
+      "sha256": "f7801dd74604fae6f271f2de58b81f33b06f81ee375136dc6c6c2fefdb19f03f"
     },
     {
       "path": "example/narration.txt",
@@ -48,8 +48,8 @@
     },
     {
       "path": "example/requirements-voice.txt",
-      "bytes": 38,
-      "sha256": "3c247fe73a4d15b78845777b8282b70361cb3a07e3fe16a85794a08c4dc204e1"
+      "bytes": 151,
+      "sha256": "78ce9985272b924ba6a5016499cc92c332e5b1ce64c94cd08b503c6ae820f88b"
     },
     {
       "path": "example/review.md",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8713,
-      "sha256": "e5170a6e0f5d78483f8f3ada3b0a2a514ef26f066bf3539dcbc0d0b1c61b42a8"
+      "bytes": 9189,
+      "sha256": "6c2a12fa2261c8c670c309818edb587181a0f5dc856b6dda8a4a58374e36a5dc"
     },
     {
       "path": "remotion.config.ts",
@@ -178,8 +178,8 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 7747,
-      "sha256": "79503da36df33f3287bdb8927c1dc68ca8d0e1ea479a1336c83389a32871b494"
+      "bytes": 8211,
+      "sha256": "599e55f62109d569ca85d454561097b646a62a5171dd8b3cb4cf7ea870f74fde"
     },
     {
       "path": "AGENTS.md",
@@ -193,13 +193,13 @@
     },
     {
       "path": "docs/tts-voices.md",
-      "bytes": 4933,
-      "sha256": "353362a452d397967c769422ac168f138e462b25c5f9a58f68148dc77ec3748c"
+      "bytes": 5185,
+      "sha256": "8c9d59daeb9366c6fc83e8c3c226795359d363ad99b5c2aab2e40e38fb2bfa41"
     },
     {
       "path": "tools/voice_preview.py",
-      "bytes": 1828,
-      "sha256": "f1c4d6b1a3067119743c6c164d1424a0dcd823964ff18990aeeddd6609386207"
+      "bytes": 1967,
+      "sha256": "ae2f22348cb26f72081cb48bcc3996f6efc1f1316796b794a585e2014d358283"
     },
     {
       "path": "tools/voice-preview.mjs",
@@ -208,8 +208,18 @@
     },
     {
       "path": "tools/voice-preview.html",
-      "bytes": 5372,
-      "sha256": "bf286405020ac0e56f33738277843be1d174264be70ef32cbf7bd53e713c9209"
+      "bytes": 5552,
+      "sha256": "4577c66356ce11a724bdf9c6ba7fde5a5b2302243e76c8e18d7ca7249730a039"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2873,
+      "sha256": "6dc5c4b1034dc3ca16f9fd47ced4623f21c12bc0a5097bcb0484e1b43a8ad3a9"
+    },
+    {
+      "path": "third_party/licenses/VieNeu-LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
     }
   ]
 }

@@ -1,4 +1,8 @@
-"""Generate comparable samples for every preset in the installed VieNeu engine."""
+"""Generate samples using VieNeu-TTS by Phạm Nguyễn Ngọc Bảo (pnnbao97).
+
+External SDK: https://github.com/pnnbao97/VieNeu-TTS (Apache-2.0).
+See THIRD_PARTY_NOTICES.md for attribution and upstream model terms.
+"""
 import argparse,hashlib,json,sys
 from pathlib import Path
 from vieneu import Vieneu
