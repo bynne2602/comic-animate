@@ -1,7 +1,7 @@
 {
   "name": "comic-animate",
   "version": "1.0.0",
-  "description": "Script-driven vertical comic storytelling videos with Remotion, for any topic",
+  "description": "Customizable comic storytelling videos with Remotion, from your scripts and video settings",
   "license": "GPL-3.0-only",
   "private": true,
   "dependencies": {

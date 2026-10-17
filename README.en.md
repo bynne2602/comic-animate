@@ -2,11 +2,11 @@
 
 [Tiếng Việt](README.md) | [English](README.en.md)
 
-A Remotion project for creating **9:16 vertical comic storytelling videos** from scripts supplied by the user. Topics can include world history, science, education, culture, fiction, and more. The project is not limited to Vietnamese history. The assistant follows the example's visual style while adapting characters, costumes, props, and locations to each script.
+A Remotion project for creating comic storytelling videos from user-provided scripts and settings. **You choose the aspect ratio: landscape 16:9, portrait 9:16, or another format.** Topics can include world history, science, education, culture, fiction, and more. The project is not limited to Vietnamese history. The assistant follows the example's visual style while adapting characters, costumes, props, and locations to each script.
 
 ## Start a new episode
 
-1. Enter the episode title and narration in [episode/script.md](episode/script.md), or provide the script directly in the conversation. You may write the script in your preferred language.
+1. Enter the episode title, narration, and video settings (aspect ratio, resolution, frame rate, and voice) in [episode/script.md](episode/script.md), or provide the script directly in the conversation. You may write the script in your preferred language.
 2. Ask the assistant to create the episode from your script, using [example/](example/) and the visual components in [src/](src/) as style references.
 3. Review a **30-second demo** for visuals, narration, captions, and pacing.
 4. Once you approve the demo, the assistant creates the **full video** from your script.
@@ -15,17 +15,32 @@ If no script has been provided, the assistant waits for it. Existing examples do
 
 Saving a script does not automatically generate a video. This is an assistant-guided Remotion workflow; the repository currently has no script-entry interface or automatic script-to-animation engine.
 
+## Customize your video
+
+Specify your settings in `episode/script.md` or directly in the conversation:
+
+| Setting | Examples |
+| --- | --- |
+| Aspect ratio | Landscape 16:9, portrait 9:16, square 1:1, or a custom ratio |
+| Resolution | 1920×1080 for 16:9; 1080×1920 for 9:16; 1080×1080 for 1:1 |
+| Frame rate | 24, 25, 30, or 60 fps |
+| Narration | Your choice of language, voice, and speaking speed |
+| Duration | Based on your script or requested length; a 30-second demo before the full video |
+| Presentation | Comic layout, presenter, captions, and colors tailored to your request |
+
+If the aspect ratio is unspecified, the assistant asks before laying out scenes. Panels, characters, and captions are arranged for the selected dimensions rather than simply stretching or cropping a portrait video. The demo and full video use the same agreed settings.
+
 ## Copyable prompt
 
-First enter your script in [episode/script.md](episode/script.md). Copy the entire prompt below, replace `[EPISODE TITLE]`, and paste it into the conversation opened in this repository.
+First enter your script in [episode/script.md](episode/script.md). Copy the entire prompt below, replace `[EPISODE TITLE]`, `[ASPECT RATIO]`, `[RESOLUTION]`, and `[FPS]` with your settings (for example: 16:9, 1920×1080, 30), and paste it into the conversation opened in this repository.
 
 ```text
-/remotion-create Create a storytelling video titled "[EPISODE TITLE]" from the script I supplied in episode/script.md. Take the topic from my script; it is not limited to Vietnamese history. Use example/ and the original visual components in src/ to preserve the comic style, layered scenery, and blue-clothed presenter outside the panel. Adapt characters, costumes, props, and settings to the content. Use vertical 9:16 (1080×1920), 30 fps, with captions aligned to the narration. For Vietnamese narration, use Hải Đăng at 95% speed unless I request another voice; for another language, confirm a suitable voice before generating audio. Follow my script; if it is missing, wait for me to provide it. Open Remotion Studio for preview and create and export a 30-second MP4 demo for my approval before making the full video. If the script is shorter than 30 seconds, report its length and let me decide how to proceed. Preserve the example and save the new episode in its own directory.
+/remotion-create Create a storytelling video titled "[EPISODE TITLE]" from the script I supplied in episode/script.md. Take the topic from my script; it is not limited to Vietnamese history. Use example/ and the original visual components in src/ to preserve the comic style, layered scenery, and blue-clothed presenter outside the panel. Adapt characters, costumes, props, and settings to the content. Use my selected settings: [ASPECT RATIO] aspect ratio, [RESOLUTION] resolution, and [FPS] fps, with captions aligned to the narration. Design the layout for this frame; ask me before proceeding if settings are missing or dimensions do not match the ratio. For Vietnamese narration, use Hải Đăng at 95% speed unless I request another voice; for another language, confirm a suitable voice before generating audio. Follow my script; if it is missing, wait for me to provide it. Open Remotion Studio for preview and create and export a 30-second MP4 demo for my approval before making the full video. If the script is shorter than 30 seconds, report its length and let me decide how to proceed. Preserve the example and save the new episode in its own directory.
 ```
 
 ## Default visual style and narration
 
-- 1080×1920 resolution at 30 fps.
+- Aspect ratio, resolution, and frame rate follow user settings; 9:16 is not mandatory.
 - Flat-colored characters with black outlines and softly colored, layered scenery.
 - Comic panels, speech bubbles, and a blue-clothed presenter outside the panel.
 - For Vietnamese narration: Hải Đăng at 95% speed. For other languages, use a suitable voice selected with the user. The bundled voice-generation scripts currently serve the Vietnamese example.
@@ -47,7 +62,7 @@ Open [Remotion Studio](http://localhost:3041) and select a composition:
 | --- | --- | --- |
 | Diên Hồng | `DienHong-Vertical` | [example/](example/) — script, subtitles, notes, and audio tools |
 
-Diên Hồng demonstrates the visual style; it does not restrict the topic or language of new episodes. `project.json` currently contains the export configuration for this example.
+Diên Hồng demonstrates the visual style; it does not restrict the topic, language, or aspect ratio of new episodes. The existing example is portrait 9:16 at 1080×1920 and 30 fps. `project.json` currently contains the export configuration for this example.
 
 ## Project structure
 
