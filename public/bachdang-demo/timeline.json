@@ -1,0 +1,128 @@
+{
+  "duration": 30,
+  "fps": 30,
+  "voice": "Hải Đăng",
+  "speed": 0.95,
+  "scenes": [
+    {
+      "index": 0,
+      "startFrame": 0,
+      "frames": 197,
+      "start": 0.0,
+      "end": 6.566666666666666,
+      "text": "Sau Diên Hồng, Đại Việt lại đối mặt quân Nguyên. Lần này, câu chuyện đưa ta đến sông Bạch Đằng."
+    },
+    {
+      "index": 1,
+      "startFrame": 197,
+      "frames": 169,
+      "start": 6.566666666666666,
+      "end": 12.2,
+      "text": "Năm một nghìn hai trăm tám mươi tám. Đoàn thuyền quân Nguyên đang tìm đường rút về."
+    },
+    {
+      "index": 2,
+      "startFrame": 366,
+      "frames": 174,
+      "start": 12.2,
+      "end": 18.0,
+      "text": "Trần Hưng Đạo chọn khúc sông này để bày trận. Nhưng thứ chờ địch lại nằm dưới mặt nước."
+    },
+    {
+      "index": 3,
+      "startFrame": 540,
+      "frames": 177,
+      "start": 18.0,
+      "end": 23.9,
+      "text": "Quân dân lặng lẽ đóng những hàng cọc gỗ. Khi thủy triều lên, đầu cọc chìm khuất."
+    },
+    {
+      "index": 4,
+      "startFrame": 717,
+      "frames": 183,
+      "start": 23.9,
+      "end": 30.0,
+      "text": "Cọc đã sẵn sàng. Thuyền nhẹ bắt đầu nhử địch. Nhưng muốn thắng, phải chờ đúng con nước."
+    }
+  ],
+  "captions": [
+    {
+      "text": "Sau Diên Hồng, Đại Việt lại đối mặt quân Nguyên.",
+      "startMs": 120,
+      "endMs": 3000,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Lần này, câu chuyện đưa ta đến sông Bạch Đằng.",
+      "startMs": 3000,
+      "endMs": 4920,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Năm một nghìn hai trăm tám mươi tám.",
+      "startMs": 6687,
+      "endMs": 8607,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Đoàn thuyền quân Nguyên đang tìm đường rút về.",
+      "startMs": 8607,
+      "endMs": 10687,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Trần Hưng Đạo chọn khúc sông này để bày trận.",
+      "startMs": 12350,
+      "endMs": 14660,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Nhưng thứ chờ địch lại nằm dưới mặt nước.",
+      "startMs": 14660,
+      "endMs": 16460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Quân dân lặng lẽ đóng những hàng cọc gỗ.",
+      "startMs": 18120,
+      "endMs": 20520,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Khi thủy triều lên, đầu cọc chìm khuất.",
+      "startMs": 20520,
+      "endMs": 22460,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Cọc đã sẵn sàng.",
+      "startMs": 24020,
+      "endMs": 25340,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Thuyền nhẹ bắt đầu nhử địch.",
+      "startMs": 25340,
+      "endMs": 26780,
+      "timestampMs": null,
+      "confidence": null
+    },
+    {
+      "text": "Nhưng muốn thắng, phải chờ đúng con nước.",
+      "startMs": 26780,
+      "endMs": 28420,
+      "timestampMs": null,
+      "confidence": null
+    }
+  ],
+  "captionTiming": "Whisper base word timestamps matched to authored script"
+}

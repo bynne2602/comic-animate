@@ -15,7 +15,7 @@ Xem MP4 có sẵn: `npm run preview`. Xuất lại: `npm run render` (cần FFmp
 
 Mã nguồn và tài nguyên đang dùng được quản lý bằng Git. `exports/`, bộ nhớ đệm, `node_modules/` và tệp môi trường được bỏ qua. File MP4 kèm gói ZIP là thành phẩm, không phải tài nguyên cần để dựng lại. Clone chỉ chứa nguồn vẫn xuất lại được sau `npm ci`.
 
-Đây là repo riêng, không dùng liên kết tới thư mục 26flow, node_modules hay tài nguyên của repo bên cạnh. Chưa cấu hình remote GitHub. Không kèm khóa API, model cache hoặc công cụ cá nhân của máy dựng.
+Đây là repo riêng, không dùng liên kết tới thư mục 26flow, node_modules hay tài nguyên của repo bên cạnh. GitHub riêng tư: https://github.com/bynne2602/history-vn. Không kèm khóa API, model cache hoặc công cụ cá nhân của máy dựng.
 
 ## Quyền sử dụng
 
@@ -31,3 +31,7 @@ Repo giữ `private: true` và `UNLICENSED`; không tự cấp phép công khai 
 Không cần Python để xem hoặc xuất từ bộ âm thanh có sẵn. Nếu chủ động tạo lại giọng: Python3.11, FFmpeg; cài `dien-hong/requirements-voice.txt`, rồi lần lượt `npm run audio:generate`, `npm run audio:align`, `npm run audio:timing`. VieNeu tải model khi cần. Đây là bước tái tạo tùy chọn; chưa chạy lại khi tách repo.
 
 Ghi chú `archive-README.md` lưu lịch sử các bản cũ; thông số hiện tại lấy ở README này và `project.json`.
+
+## Demo tập tiếp theo
+
+**Bạch Đằng 1288**: demo 30 giây, 1080×1920, 30 fps; composition `BachDang-Demo-30s`. Dùng lại nhân vật, phong cách và giọng Hải Đăng 95% của tập Diên Hồng. Chạy `npm run dev`, chọn composition này để xem. Kịch bản, phụ đề, hướng dẫn dựng và ghi chú kiểm tra nằm trong `bach-dang/`. Chưa dựng bản full.
