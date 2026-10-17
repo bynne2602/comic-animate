@@ -83,8 +83,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 1348,
-      "sha256": "8ac0695ebfd9e17426e3f78cfa4d1a0e55c3b14598fbc84f02dac94461dcd710"
+      "bytes": 1526,
+      "sha256": "d3847b6eac8fe826727501db530f669d56b1205957586dc450c9f4fc78593da1"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 10142,
-      "sha256": "873fe745bdd9056dc48ef686e5b789df6c68fd9ae674d2a1eabb7c8fd05725d3"
+      "bytes": 10693,
+      "sha256": "05f7b5f4e030424160644bfbcf092f59331756f00e8a965a3eee9552fa90dd0d"
     },
     {
       "path": "remotion.config.ts",
@@ -178,8 +178,8 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 9131,
-      "sha256": "7884b1f4ba0ebef497f0ed46755400474a632585119c02abd56bb52e49d02173"
+      "bytes": 9641,
+      "sha256": "7aedb46c6c32c1be3502ab9c29b96e28e2737924e7dc5a532db217d254b8e6c9"
     },
     {
       "path": "AGENTS.md",
@@ -223,8 +223,8 @@
     },
     {
       "path": "tools/edge_voice.py",
-      "bytes": 5653,
-      "sha256": "f07033f51e4ec83f0b07ba85149ecf2ddffe3560327440fafafeeb40ec043bc2"
+      "bytes": 6532,
+      "sha256": "21642b0b25157f95717245afb586270db0d8b22061b66ee34682f9840c5df92f"
     },
     {
       "path": "tools/requirements-edge-tts.txt",
@@ -233,13 +233,23 @@
     },
     {
       "path": "docs/edge-tts.md",
-      "bytes": 4952,
-      "sha256": "3a22dabf84fd0965642e86184d93c7bfde0cdca73c43ab9222f60525c23d0ef3"
+      "bytes": 5441,
+      "sha256": "f661d6d513b23d224ea25417383a24321fe2e33e3ae017f650f14da9d5c73cb1"
     },
     {
       "path": "third_party/licenses/edge-tts-LICENSE",
       "bytes": 9041,
       "sha256": "3613045a46a5bce847f80eadbbf013e4260ef19d728ffd061d61e792689ec3a8"
+    },
+    {
+      "path": "voice-models/edge.json",
+      "bytes": 175,
+      "sha256": "ed8afb1eb8b75fcb7a0339fa3e844c0743cef36447730163096cbc2c85982d1b"
+    },
+    {
+      "path": "voice-models/README.md",
+      "bytes": 2568,
+      "sha256": "4f32d8c9dd712c335ec828b3332e6f06b5a512509602ef51daa5bd10dfd8db16"
     }
   ]
 }

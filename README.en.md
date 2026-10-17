@@ -76,6 +76,10 @@ npm run voices:preview
 
 Open the [Edge TTS audition page](http://localhost:3052/edge/), select a voice, and copy the request into your episode conversation. Use `ja-JP` for Japanese or another supported locale. See the [Edge TTS narration guide](docs/edge-tts.md) and [client attribution and license](THIRD_PARTY_NOTICES.md#edge-tts-and-microsoft-edge-speech-service).
 
+### Ready-made Edge voice preset
+
+[voice-models/edge.json](voice-models/edge.json) selects the online `en-US-AvaNeural` voice at 100% speed. Run `npm run edge:model` to create an audition sample. After supplying a narration-only text file, run `npm run edge:model:speak -- --text-file episode/narration.txt --output public/my-episode/narration.mp3`. Edit the JSON to change the voice, locale, or rate; see the [preset guide](voice-models/README.md). This is a service configuration, not an offline model.
+
 ## Install and preview the example
 
 Requires Node.js 22 LTS and npm:

@@ -10,6 +10,10 @@ python -m pip install -r tools/requirements-edge-tts.txt
 
 Repo ghim `edge-tts==7.3.1`. Không cần cài trình duyệt Edge hoặc API key cho client này. Khả năng truy cập và danh sách giọng phụ thuộc dịch vụ trực tuyến.
 
+## Preset voice-model có sẵn
+
+Dùng [voice-models/edge.json](../voice-models/edge.json) nếu muốn có cấu hình giọng dùng ngay. `npm run edge:model` tạo mẫu và `npm run edge:model:speak -- --text-file episode/narration.txt --output public/my-episode/narration.mp3` tạo lời kể theo preset. Xem [cách đổi giọng và tốc độ](../voice-models/README.md).
+
 ## Danh sách giọng hiện tại
 
 ```powershell
@@ -48,7 +52,7 @@ Chuẩn bị file UTF-8 chỉ chứa lời kể, không kèm tiêu đề Markdow
 npm run edge:speak -- --voice en-US-AvaNeural --text-file episode/narration.txt --rate=-5% --output public/my-episode/narration.mp3
 ```
 
-`--rate=-5%` tương ứng tốc độ 95%; `--rate=+0%` là 100%. Không áp thêm tỷ lệ 95% lần nữa khi phát âm thanh đã tạo ở 95%. Lệnh yêu cầu chọn giọng rõ ràng và không ghi đè file đã tồn tại.
+`--rate=-5%` tương ứng tốc độ 95%; `--rate=+0%` là 100%. Không áp thêm tỷ lệ 95% lần nữa khi phát âm thanh đã tạo ở 95%. Lệnh yêu cầu chọn giọng qua `--voice` hoặc `--config` rõ ràng và không ghi đè file đã tồn tại.
 
 Sau khi tạo MP3, trợ lý phải căn phụ đề, khẩu hình và thời gian cảnh theo bản thu của tập mới. Lệnh này không tự tạo composition hoặc thay giọng tập Diên Hồng. Nếu dịch vụ lỗi, lệnh báo lỗi thay vì tự đổi sang giọng hoặc ngôn ngữ khác.
 

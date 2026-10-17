@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "name": "Edge TTS — English Ava",
+  "engine": "edge-tts",
+  "mode": "online",
+  "locale": "en-US",
+  "voice": "en-US-AvaNeural",
+  "rate": "+0%"
+}

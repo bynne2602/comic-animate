@@ -9,6 +9,7 @@ import edge_tts
 ROOT=Path(__file__).resolve().parents[1]
 sys.stdout.reconfigure(encoding='utf-8')
 parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--config',type=Path,help='Voice preset JSON, e.g. voice-models/edge.json')
 mode=parser.add_mutually_exclusive_group(required=True)
 mode.add_argument('--list',action='store_true')
 mode.add_argument('--preview',action='store_true')
@@ -18,9 +19,22 @@ parser.add_argument('--voice',help='Exact ShortName from the service voice list'
 source=parser.add_mutually_exclusive_group()
 source.add_argument('--text')
 source.add_argument('--text-file',type=Path,help='UTF-8 narration-only text file')
-parser.add_argument('--rate',default='+0%',help='Service rate, e.g. --rate=-5% for 95% speed')
+parser.add_argument('--rate',help='Service rate, e.g. --rate=-5% for 95% speed')
 parser.add_argument('--limit',type=int,default=4,help='Maximum preview voices; default 4')
 args=parser.parse_args()
+if args.config:
+ try:
+  config=json.loads(args.config.read_text(encoding='utf-8-sig'))
+  if not isinstance(config,dict) or config.get('schemaVersion')!=1 or config.get('engine')!='edge-tts' or config.get('mode')!='online':
+   raise ValueError('Expected schemaVersion=1, engine=edge-tts, mode=online')
+  for key in ['locale','voice','rate']:
+   if not isinstance(config.get(key),str) or not config[key].strip():raise ValueError(f'Missing preset field: {key}')
+  explicit_voice=args.voice is not None
+  if args.locale is None and not explicit_voice:args.locale=config['locale']
+  if args.voice is None:args.voice=config['voice']
+  if args.rate is None:args.rate=config['rate']
+ except (OSError,ValueError) as error:parser.error(f'Invalid voice preset: {error}')
+if args.rate is None:args.rate='+0%'
 SAMPLES={
  'en':'Hello! This is a sample voice for your video. Listen and choose the voice that fits your story.',
  'ja':'こんにちは。これは動画のための音声サンプルです。物語に合う声を選んでください。',

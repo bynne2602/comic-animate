@@ -76,6 +76,10 @@ npm run voices:preview
 
 Mở [nghe thử Edge TTS](http://localhost:3052/edge/), chọn giọng rồi copy yêu cầu cho tập mới. Dùng locale `ja-JP` cho tiếng Nhật; `--list` lấy danh sách hiện tại từ dịch vụ. Xem [hướng dẫn tạo lời kể Edge TTS](docs/edge-tts.md) và [ghi nhận nguồn, giấy phép client](THIRD_PARTY_NOTICES.md#edge-tts-and-microsoft-edge-speech-service).
 
+### Voice-model Edge có sẵn
+
+Repo kèm [voice-models/edge.json](voice-models/edge.json): preset online `en-US-AvaNeural`, tốc độ 100%. Chạy `npm run edge:model` để tạo mẫu nghe thử. Tạo lời kể bằng `npm run edge:model:speak -- --text-file episode/narration.txt --output public/my-episode/narration.mp3` sau khi chuẩn bị file lời kể. Có thể đổi giọng, locale và tốc độ trong JSON; xem [hướng dẫn preset](voice-models/README.md). Đây là cấu hình dịch vụ, không phải model offline.
+
 ## Cài đặt và xem các tập mẫu
 
 Cần Node.js 22 LTS và npm:

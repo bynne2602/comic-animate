@@ -20,6 +20,8 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "edge:model": "python tools/edge_voice.py --config voice-models/edge.json --preview",
+    "edge:model:speak": "python tools/edge_voice.py --config voice-models/edge.json",
     "edge:voices": "python tools/edge_voice.py --list",
     "edge:generate": "python tools/edge_voice.py --preview",
     "edge:speak": "python tools/edge_voice.py",
