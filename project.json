@@ -3,7 +3,7 @@
   "composition": "DienHong-Vertical",
   "video": "exports/dien-hong.mp4",
   "master": "exports/dien-hong-master.mp4",
-  "subtitles": "dien-hong/subtitles-95.srt",
+  "subtitles": "example/subtitles-95.srt",
   "previewPort": 3051,
   "voice": {
     "name": "Hải Đăng",

@@ -22,47 +22,47 @@
       "sha256": "4ae03841ded92a131b57764dc98140fc282423d71a89c03986fb93e211a0a5f9"
     },
     {
-      "path": "dien-hong/align_audio.py",
+      "path": "example/align_audio.py",
       "bytes": 3163,
       "sha256": "7870a3ca7b272e7596c29023d01b47355c95ed9e7269e32b4712734c905b6052"
     },
     {
-      "path": "dien-hong/archive-README.md",
+      "path": "example/archive-README.md",
       "bytes": 3871,
       "sha256": "a080fe809211b5fde457c7fc9a32288eec400d043700a8c0d460e1a3979bfa51"
     },
     {
-      "path": "dien-hong/archive-镜头表.md",
+      "path": "example/archive-镜头表.md",
       "bytes": 1982,
       "sha256": "c2af752136f70e840c4fb4ee6ce00b999ac62ddb1dba06637b00d0538577eb73"
     },
     {
-      "path": "dien-hong/build_audio.py",
+      "path": "example/build_audio.py",
       "bytes": 2624,
       "sha256": "f78bddee4dc00362b454312cb0c5e85f0b509e8b06b83df0145cc315d2d096da"
     },
     {
-      "path": "dien-hong/narration.txt",
+      "path": "example/narration.txt",
       "bytes": 1990,
       "sha256": "a6b4a4c67994ce01293111feb8a2995ada5bf60fb57b074ebfdb9065f8b4fdcb"
     },
     {
-      "path": "dien-hong/requirements-voice.txt",
+      "path": "example/requirements-voice.txt",
       "bytes": 38,
       "sha256": "3c247fe73a4d15b78845777b8282b70361cb3a07e3fe16a85794a08c4dc204e1"
     },
     {
-      "path": "dien-hong/review.md",
+      "path": "example/review.md",
       "bytes": 1614,
       "sha256": "fc73ca29cf890295b28d4738371dda1c24a170d2ecf9e124e60293e6f85e43dc"
     },
     {
-      "path": "dien-hong/subtitles-95.srt",
+      "path": "example/subtitles-95.srt",
       "bytes": 3889,
       "sha256": "c2a960b2661f1f2d451b4a74bd150e81a26818903e50abde87c8dd9d0778082b"
     },
     {
-      "path": "dien-hong/update_timing.py",
+      "path": "example/update_timing.py",
       "bytes": 1251,
       "sha256": "92f772c74699ea6e7dc1a829b0dad6d6429541f0a41fff0fceea42b404b9971f"
     },
@@ -83,13 +83,13 @@
     },
     {
       "path": "package.json",
-      "bytes": 953,
-      "sha256": "0e6f93d8e8be6bd6befbae76fae7d62c098d5ef9a4a7a0be855af8bff9e7f4e4"
+      "bytes": 947,
+      "sha256": "08d82304cdd941c3bd2c7d755be8a72fd687f34bd8cc67dfdaff7ac1030720e8"
     },
     {
       "path": "project.json",
-      "bytes": 378,
-      "sha256": "de66de40e4ffd6a3da0008189b8e10dd88737c9e104b1e9b51e231d48fe362e1"
+      "bytes": 376,
+      "sha256": "8171adee6bc19a566caecbf7873b9431fa76fdf3cb1300f814524e96a95e6129"
     },
     {
       "path": "public/dienhong-haidang/envelope.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2511,
-      "sha256": "cf1c0bd18c96ed730f18aad18d07b212e9eba0a008db70334634aa97cfd721c9"
+      "bytes": 2932,
+      "sha256": "5c84ad18e78437c806ad986ecad94f34ca86029feefffa76cb4a3b1cc3e57610"
     },
     {
       "path": "remotion.config.ts",

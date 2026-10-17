@@ -25,10 +25,10 @@ Repo giữ `private: true` và `UNLICENSED`; không tự cấp phép công khai 
 
 - `src/`: nhân vật, cảnh, bố cục và entry độc lập.
 - `public/dienhong-haidang/`: thoại, nhạc, khẩu hình và timeline đã chốt. Bản WAV nguồn ở93%; composition phát95/93 để đạt95%. Không tăng thêm lần nữa.
-- `dien-hong/`: kịch bản, phụ đề95%, ghi chú và công cụ âm thanh.
+- `example/`: kịch bản, phụ đề95%, ghi chú và công cụ âm thanh.
 - `content/`: timeline/mẫu nhạc đầu vào để tái tạo âm thanh, không lấy từ repo cũ.
 
-Không cần Python để xem hoặc xuất từ bộ âm thanh có sẵn. Nếu chủ động tạo lại giọng: Python3.11, FFmpeg; cài `dien-hong/requirements-voice.txt`, rồi lần lượt `npm run audio:generate`, `npm run audio:align`, `npm run audio:timing`. VieNeu tải model khi cần. Đây là bước tái tạo tùy chọn; chưa chạy lại khi tách repo.
+Không cần Python để xem hoặc xuất từ bộ âm thanh có sẵn. Nếu chủ động tạo lại giọng: Python3.11, FFmpeg; cài `example/requirements-voice.txt`, rồi lần lượt `npm run audio:generate`, `npm run audio:align`, `npm run audio:timing`. VieNeu tải model khi cần. Đây là bước tái tạo tùy chọn; chưa chạy lại khi tách repo.
 
 Ghi chú `archive-README.md` lưu lịch sử các bản cũ; thông số hiện tại lấy ở README này và `project.json`.
 
