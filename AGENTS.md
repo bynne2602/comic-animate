@@ -1,9 +1,11 @@
 # Quy trình dựng tập mới
 
-- Đây là repo phim lịch sử Việt. Người dùng chọn chủ đề và cung cấp kịch bản trong cuộc trò chuyện hoặc `episode/script.md`.
-- Nếu file chỉ có tiêu đề, gợi ý hoặc comment mẫu và cuộc trò chuyện chưa có kịch bản, hãy yêu cầu người dùng nhập kịch bản rồi chờ. Không tự chọn sự kiện lịch sử, viết lời kể hoặc tạo tập tiếp theo từ mẫu có sẵn. Chỉ viết hay biên tập kịch bản khi người dùng yêu cầu rõ việc đó.
+- Đây là repo video kể chuyện dạng comic, dùng cho mọi chủ đề: lịch sử các nước, khoa học, giáo dục, văn hóa, truyện hư cấu và các nội dung khác. Không giới hạn ở lịch sử Việt Nam. Người dùng chọn chủ đề và cung cấp kịch bản trong cuộc trò chuyện hoặc `episode/script.md`.
+- Nếu file chỉ có tiêu đề, gợi ý hoặc comment mẫu và cuộc trò chuyện chưa có kịch bản, hãy yêu cầu người dùng nhập kịch bản rồi chờ. Không tự chọn chủ đề, viết lời kể hoặc tạo tập tiếp theo từ mẫu có sẵn. Chỉ viết hay biên tập kịch bản khi người dùng yêu cầu rõ việc đó.
 - `example/` chứa tập Diên Hồng để tham khảo. Không ghi đè các tập mẫu khi dựng tập mới.
 - Bám lời kể và thứ tự nội dung người dùng cung cấp. Có thể chia cảnh, căn phụ đề và thiết kế chuyển động; không tự thêm sự kiện, lời thoại hoặc kết luận làm đổi nội dung. Nếu cần thay đổi nội dung để chính xác, hãy nêu đề xuất cho người dùng.
-- Dùng Remotion; giữ khổ 1080×1920 (9:16), 30 fps và phong cách minh họa của tập gốc: bộ nhân vật `src/PortraitCast.tsx`, nền nhiều lớp `src/DepthScenery.tsx`, khung comic, người kể áo xanh ngoài khung. Giọng mặc định Hải Đăng, tốc độ 95%, trừ khi người dùng yêu cầu khác.
+- Dùng Remotion; mặc định khổ 1080×1920 (9:16), 30 fps và phong cách minh họa của tập gốc: nét viền đen, màu phẳng, nền nhiều lớp, khung comic, người kể áo xanh ngoài khung. Tham chiếu `src/PortraitCast.tsx` và `src/DepthScenery.tsx`, nhưng thiết kế nhân vật, trang phục, đạo cụ và bối cảnh phù hợp chủ đề, thời đại, địa điểm. Không áp trang phục hoặc bối cảnh Diên Hồng cho nội dung không liên quan.
+- Giữ ngôn ngữ kịch bản người dùng cung cấp, không tự dịch sang tiếng Việt. Với tiếng Việt, mặc định Hải Đăng tốc độ 95% trừ khi người dùng yêu cầu khác. Với ngôn ngữ khác mà chưa chốt giọng, xác nhận giọng phù hợp trước khi tạo âm thanh; công cụ âm thanh trong `example/` chỉ phục vụ mẫu tiếng Việt.
+- Đồng bộ hướng dẫn sử dụng và prompt mẫu giữa `README.md` (tiếng Việt) và `README.en.md` (tiếng Anh). Prompt copy phải bắt đầu bằng `/remotion-create`.
 - Dựng và kiểm tra demo 30 giây trước. Nếu kịch bản ngắn hơn 30 giây, không tự thêm lời hay lặp cảnh để đủ thời lượng; báo rõ độ dài và xin hướng xử lý. Chỉ dựng bản full sau khi người dùng duyệt demo hoặc yêu cầu rõ bỏ qua bước duyệt.
 - Đọc các skill Remotion phù hợp trước khi sửa composition. Mở Studio trước khi chỉnh hình; kiểm tra hình ảnh trong Studio và các frame của MP4 khi xuất. Không coi build hoặc kiểm tra codec là bằng chứng đã đạt yêu cầu hình ảnh.

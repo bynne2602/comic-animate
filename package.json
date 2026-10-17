@@ -1,7 +1,7 @@
 {
   "name": "history-vn",
   "version": "1.0.0",
-  "description": "Lịch sử Việt — comic dọc",
+  "description": "Script-driven vertical comic storytelling videos with Remotion, for any topic",
   "license": "GPL-3.0-only",
   "private": true,
   "dependencies": {

@@ -83,8 +83,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 949,
-      "sha256": "9a452f3c7d145b046da3d0fee9cb007fed1c304ffc3decc0ba95eec825fff576"
+      "bytes": 992,
+      "sha256": "0d1e63a131dacee28356f940ddb23e07ccd1020543289dac331dfe52de2c93bf"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6656,
-      "sha256": "bb79153e06ac2795551c7c76d2e8924c715e6af9fdc63f02bf8340d4d7dd8cf4"
+      "bytes": 7854,
+      "sha256": "284f7d042ff9115528c6c97ef25bddfb1e27efffce49b0d5c9e080b911bf9bc6"
     },
     {
       "path": "remotion.config.ts",
@@ -175,6 +175,21 @@
       "path": "LICENSE",
       "bytes": 35149,
       "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "README.en.md",
+      "bytes": 6675,
+      "sha256": "40754466d7b281eb4014943d605b2588e554d4bfaf41cddc1e2eb3a54e304169"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2894,
+      "sha256": "7fdc865cee2c1446fc136f7d18b7b6060b9ac6f30fd976212d063814d6defc30"
+    },
+    {
+      "path": "episode/script.md",
+      "bytes": 607,
+      "sha256": "38ad02687fe6e3bccf0fbf7b7aaadf6e5c2d5112f89d4c8d92eca60f99f2742c"
     }
   ]
 }

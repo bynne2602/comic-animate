@@ -1,6 +1,8 @@
-# Lịch sử Việt — dựng phim từ kịch bản của bạn
+# Comic Video — dựng phim từ kịch bản của bạn
 
-Dự án Remotion để dựng phim lịch sử Việt dạng comic dọc **9:16**. **Người dùng nhập kịch bản cho từng tập**; trợ lý dùng phong cách và hình ảnh của tập mẫu để dựng video.
+[Tiếng Việt](README.md) | [English](README.en.md)
+
+Dự án Remotion để dựng video kể chuyện dạng comic dọc **9:16** từ kịch bản do người dùng cung cấp. Có thể làm lịch sử thế giới, khoa học, giáo dục, văn hóa, truyện hư cấu và các chủ đề khác; không giới hạn ở lịch sử Việt Nam. Trợ lý tham chiếu phong cách hình ảnh của tập mẫu và thiết kế nhân vật, trang phục, đạo cụ, bối cảnh phù hợp với từng kịch bản.
 
 ## Bắt đầu một tập mới
 
@@ -18,7 +20,7 @@ Việc lưu file kịch bản chưa tự tạo video. Đây là quy trình dựn
 Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đó copy toàn bộ prompt dưới đây và thay `[TIÊU ĐỀ TẬP]` bằng tiêu đề của bạn. Dán prompt trong cuộc trò chuyện tại thư mục repo này.
 
 ```text
-/remotion-create Tạo tập phim lịch sử Việt có tiêu đề "[TIÊU ĐỀ TẬP]" từ kịch bản tôi đã nhập trong episode/script.md. Tham chiếu example/ và mã nguồn hình ảnh gốc trong src/ để giữ đúng phong cách comic, bộ nhân vật, bối cảnh nhiều lớp và người kể áo xanh ngoài khung. Dựng khổ dọc 9:16 (1080×1920), 30 fps, giọng Hải Đăng tốc độ 95%, có phụ đề khớp lời kể. Bám kịch bản đã cung cấp; nếu file chưa có kịch bản, hãy chờ tôi nhập. Mở Remotion Studio để xem trước, dựng và xuất demo MP4 30 giây để tôi duyệt trước khi làm bản full. Nếu kịch bản ngắn hơn 30 giây, báo lại để tôi quyết định. Giữ nguyên các tập mẫu và lưu tập mới vào thư mục riêng.
+/remotion-create Tạo video kể chuyện có tiêu đề "[TIÊU ĐỀ TẬP]" từ kịch bản tôi đã nhập trong episode/script.md. Chủ đề lấy từ kịch bản, không giới hạn ở lịch sử Việt Nam. Tham chiếu example/ và mã nguồn hình ảnh gốc trong src/ để giữ phong cách comic, bối cảnh nhiều lớp và người kể áo xanh ngoài khung; điều chỉnh nhân vật, trang phục, đạo cụ và bối cảnh cho đúng nội dung. Dựng khổ dọc 9:16 (1080×1920), 30 fps, có phụ đề khớp lời kể. Với lời kể tiếng Việt, dùng giọng Hải Đăng tốc độ 95% nếu tôi không yêu cầu giọng khác; với ngôn ngữ khác, xác nhận giọng phù hợp trước khi tạo âm thanh. Bám kịch bản đã cung cấp; nếu file chưa có kịch bản, hãy chờ tôi nhập. Mở Remotion Studio để xem trước, dựng và xuất demo MP4 30 giây để tôi duyệt trước khi làm bản full. Nếu kịch bản ngắn hơn 30 giây, báo lại để tôi quyết định. Giữ nguyên tập mẫu và lưu tập mới vào thư mục riêng.
 ```
 
 ## Phong cách mặc định
@@ -26,9 +28,9 @@ Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đ
 - Khung hình 1080×1920, 30 fps.
 - Nhân vật màu phẳng, viền đen; bối cảnh nhiều lớp với màu dịu.
 - Khung comic, ô thoại và người kể áo xanh đứng ngoài khung.
-- Giọng Hải Đăng, tốc độ 95%.
+- Với lời kể tiếng Việt: giọng Hải Đăng, tốc độ 95%. Nếu kịch bản dùng ngôn ngữ khác, chọn giọng phù hợp theo yêu cầu người dùng; bộ tạo giọng đi kèm hiện là công cụ cho tập mẫu tiếng Việt.
 
-Trợ lý giữ hệ hình ảnh của tập mẫu khi dựng cảnh mới. Bạn có thể yêu cầu đổi giọng, thời lượng hoặc cách trình bày trong kịch bản.
+Trợ lý giữ phong cách nét vẽ và bố cục của tập mẫu, đồng thời điều chỉnh tạo hình theo chủ đề. Nhân vật và trang phục thời Trần chỉ là tài nguyên của tập mẫu, không bắt buộc dùng cho mọi tập. Bạn có thể yêu cầu đổi giọng, thời lượng hoặc cách trình bày trong kịch bản.
 
 ## Cài đặt và xem các tập mẫu
 
@@ -40,6 +42,8 @@ npm run dev
 ```
 
 Mở [Remotion Studio](http://localhost:3041) và chọn composition muốn xem. Các tập có sẵn chỉ là tư liệu tham khảo:
+
+Diên Hồng là ví dụ minh họa phong cách, không ấn định chủ đề hay ngôn ngữ cho các tập mới. `project.json` hiện là cấu hình xuất của ví dụ này.
 
 | Tập mẫu | Composition | Tư liệu |
 | --- | --- | --- |
