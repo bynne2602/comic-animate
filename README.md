@@ -13,6 +13,14 @@ Nếu chưa có kịch bản, trợ lý chờ bạn nhập. Chủ đề và lờ
 
 Việc lưu file kịch bản chưa tự tạo video. Đây là quy trình dựng với trợ lý và Remotion; repo hiện chưa có màn hình nhập kịch bản hay bộ chuyển kịch bản thành hoạt cảnh tự động.
 
+## Prompt mẫu để copy
+
+Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đó copy toàn bộ prompt dưới đây và thay `[TIÊU ĐỀ TẬP]` bằng tiêu đề của bạn. Dán prompt trong cuộc trò chuyện tại thư mục repo này.
+
+```text
+/remotion-create Tạo tập phim lịch sử Việt có tiêu đề "[TIÊU ĐỀ TẬP]" từ kịch bản tôi đã nhập trong episode/script.md. Tham chiếu example/ và mã nguồn hình ảnh gốc trong src/ để giữ đúng phong cách comic, bộ nhân vật, bối cảnh nhiều lớp và người kể áo xanh ngoài khung. Dựng khổ dọc 9:16 (1080×1920), 30 fps, giọng Hải Đăng tốc độ 95%, có phụ đề khớp lời kể. Bám kịch bản đã cung cấp; nếu file chưa có kịch bản, hãy chờ tôi nhập. Mở Remotion Studio để xem trước, dựng và xuất demo MP4 30 giây để tôi duyệt trước khi làm bản full. Nếu kịch bản ngắn hơn 30 giây, báo lại để tôi quyết định. Giữ nguyên các tập mẫu và lưu tập mới vào thư mục riêng.
+```
+
 ## Phong cách mặc định
 
 - Khung hình 1080×1920, 30 fps.
