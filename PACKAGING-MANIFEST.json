@@ -78,13 +78,13 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 137848,
-      "sha256": "1f4f9c70feaca6f0ae5789684fe9c7df7f5e03925d1db86f212abdab6de1d446"
+      "bytes": 137838,
+      "sha256": "036d73bf648eec36eab806d35fd20460511d9ef2557917f5e2d81d141a5393b4"
     },
     {
       "path": "package.json",
-      "bytes": 959,
-      "sha256": "699ae2c4aa6456c2201bf5d9e94aefb6b9a13347ecebcc1f867f3e7ef58ac2f6"
+      "bytes": 949,
+      "sha256": "9a452f3c7d145b046da3d0fee9cb007fed1c304ffc3decc0ba95eec825fff576"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5920,
-      "sha256": "0437f7c12fe9f603c41ecba1c304c07a9a47cd4323ef7f0b3c2920fd3dc14bf9"
+      "bytes": 6656,
+      "sha256": "fd7c562e6524f939280451eaeceee376036bd9be80dfc402c3e7fe305a081dce"
     },
     {
       "path": "remotion.config.ts",
@@ -173,8 +173,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 1455,
-      "sha256": "dd8ac6b83ec70456d4114872d6658bfcc8da387c47be0e7ac1ec0e6abc4252a5"
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     }
   ]
 }
