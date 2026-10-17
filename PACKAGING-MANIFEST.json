@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7854,
-      "sha256": "284f7d042ff9115528c6c97ef25bddfb1e27efffce49b0d5c9e080b911bf9bc6"
+      "bytes": 6372,
+      "sha256": "252d5e798118eee8d98b71e31969fec79344cacd0f4f8a9626a47584165040d5"
     },
     {
       "path": "remotion.config.ts",
@@ -178,8 +178,8 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 6675,
-      "sha256": "40754466d7b281eb4014943d605b2588e554d4bfaf41cddc1e2eb3a54e304169"
+      "bytes": 5590,
+      "sha256": "76a7bfd7c9876d03c83c840742c01780cd748c2516c016223bdf041969247cc5"
     },
     {
       "path": "AGENTS.md",

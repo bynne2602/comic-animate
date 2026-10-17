@@ -82,14 +82,12 @@ npm run audio:timing
 
 These `audio:*` commands regenerate only the Vietnamese Diên Hồng example. Its source WAV is at 93% speed; the composition uses a playback ratio of 95/93 to reach 95%.
 
-## Repository and license
+## Source code
 
-Public repository: [bynne2602/history-vn](https://github.com/bynne2602/history-vn). Source code and required assets are tracked. `node_modules/`, `exports/`, caches, and environment files are excluded. Cloning the repository does not include exported MP4 files.
+[github.com/bynne2602/history-vn](https://github.com/bynne2602/history-vn)
 
-Copyright (c) 2026 bynne2602. Licensed under the **GNU General Public License, version 3 only (`GPL-3.0-only`)**. See [LICENSE](LICENSE) for the complete terms.
+## License
 
-You may use, modify, and distribute the project under GPLv3 without separate permission. When distributing modifications or derivative works covered by GPL, you must meet its requirements, including providing corresponding source to recipients, retaining applicable copyright and license notices, and identifying changes. The software comes without warranty under the terms of GPLv3.
+[GNU GPLv3](LICENSE) (`GPL-3.0-only`).
 
-The license covers original project code, documentation, and assets to the extent the owner holds the relevant rights. Third-party libraries, fonts, and assets remain subject to their own licenses. A user's output video is not automatically GPL-licensed merely because this tool rendered it; rights in the content and assets included in the video still apply.
-
-`private: true` in `package.json` prevents accidental npm publication. It does not change GPLv3 permissions or the GitHub repository's public visibility.
+Copyright (c) 2026 bynne2602.

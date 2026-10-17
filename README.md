@@ -82,14 +82,12 @@ npm run audio:timing
 
 Các lệnh `audio:*` chỉ tái tạo âm thanh Diên Hồng. WAV mẫu ở tốc độ 93%; composition phát với tỷ lệ 95/93 để đạt 95%.
 
-## Kho mã nguồn và quyền sử dụng
+## Mã nguồn
 
-Repo công khai: [bynne2602/history-vn](https://github.com/bynne2602/history-vn). Mã nguồn và tài nguyên cần dựng được đưa lên Git; `node_modules/`, `exports/`, cache và file môi trường được bỏ qua. MP4 không đi kèm khi clone repo.
+[github.com/bynne2602/history-vn](https://github.com/bynne2602/history-vn)
 
-Copyright (c) 2026 bynne2602. Dự án được cấp phép theo **GNU General Public License phiên bản 3 (GPL-3.0-only)**. Xem toàn văn tại [LICENSE](LICENSE).
+## Giấy phép
 
-Bạn được sử dụng, sửa đổi và phân phối theo GPLv3 mà không cần xin phép riêng. Khi phân phối bản sửa đổi hoặc tác phẩm phái sinh thuộc phạm vi GPL, bạn phải đáp ứng các yêu cầu của giấy phép, bao gồm cung cấp mã nguồn tương ứng cho người nhận, giữ các thông báo bản quyền và giấy phép, và ghi rõ các thay đổi. Phần mềm được cung cấp không kèm bảo hành theo điều khoản GPLv3.
+[GNU GPLv3](LICENSE) (`GPL-3.0-only`).
 
-Giấy phép áp dụng cho mã nguồn, tài liệu và tài nguyên gốc của dự án trong phạm vi quyền của chủ sở hữu. Thư viện, font và tài nguyên của bên thứ ba vẫn tuân theo giấy phép riêng của chúng. Tệp video do người dùng tạo không tự động thuộc GPL chỉ vì được dựng bằng công cụ này; quyền đối với nội dung và tài nguyên được đưa vào video vẫn cần được tuân thủ.
-
-`private: true` trong package.json tiếp tục ngăn xuất bản nhầm gói lên npm; thiết lập này không thay đổi các quyền theo GPLv3 và không tự đổi chế độ riêng tư của repo GitHub.
+Copyright (c) 2026 bynne2602.
