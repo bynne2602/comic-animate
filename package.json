@@ -20,6 +20,9 @@
     "typescript": "5.9.3"
   },
   "scripts": {
+    "voices:list": "python tools/voice_preview.py --list",
+    "voices:generate": "python tools/voice_preview.py",
+    "voices:preview": "node tools/voice-preview.mjs",
     "dev": "remotion studio src/index.ts --port=3041 --no-open",
     "preview": "node tools/preview.mjs",
     "render": "node tools/render.mjs",

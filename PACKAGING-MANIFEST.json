@@ -83,8 +83,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 1008,
-      "sha256": "b7353d3d998bcbd0ee77116e9bff3b63cce7b3345c5257bf8d45a2534cb83c2f"
+      "bytes": 1180,
+      "sha256": "76cd98770153479187bf88c6a24fbbbfa0ef4d038c566f560e2d62c01196d4e2"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8013,
-      "sha256": "185beed0ad33e9339c33caa26ae9131e690725e821d1eb150d81fd0b486edb3f"
+      "bytes": 8713,
+      "sha256": "e5170a6e0f5d78483f8f3ada3b0a2a514ef26f066bf3539dcbc0d0b1c61b42a8"
     },
     {
       "path": "remotion.config.ts",
@@ -178,8 +178,8 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 7021,
-      "sha256": "103f86ef3c7cfb00f84d7d973e093acf66930dedeb7141d228aede67a45d0d3d"
+      "bytes": 7747,
+      "sha256": "79503da36df33f3287bdb8927c1dc68ca8d0e1ea479a1336c83389a32871b494"
     },
     {
       "path": "AGENTS.md",
@@ -190,6 +190,26 @@
       "path": "episode/script.md",
       "bytes": 936,
       "sha256": "46b6a52b26aa2356d65638f52b1b5e7883f1b32b6e70f72a5c7e2040cf888b40"
+    },
+    {
+      "path": "docs/tts-voices.md",
+      "bytes": 4933,
+      "sha256": "353362a452d397967c769422ac168f138e462b25c5f9a58f68148dc77ec3748c"
+    },
+    {
+      "path": "tools/voice_preview.py",
+      "bytes": 1828,
+      "sha256": "f1c4d6b1a3067119743c6c164d1424a0dcd823964ff18990aeeddd6609386207"
+    },
+    {
+      "path": "tools/voice-preview.mjs",
+      "bytes": 1341,
+      "sha256": "8874c8ea9b17aac3dd646f39fa85e59c7cce2ad243801a2cde1151fdf45125f5"
+    },
+    {
+      "path": "tools/voice-preview.html",
+      "bytes": 5372,
+      "sha256": "bf286405020ac0e56f33738277843be1d174264be70ef32cbf7bd53e713c9209"
     }
   ]
 }

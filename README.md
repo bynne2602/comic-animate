@@ -47,6 +47,20 @@ Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đ
 
 Trợ lý giữ phong cách nét vẽ và bố cục của tập mẫu, đồng thời điều chỉnh tạo hình theo chủ đề. Nhân vật và trang phục thời Trần chỉ là tài nguyên của tập mẫu, không bắt buộc dùng cho mọi tập. Bạn có thể yêu cầu đổi giọng, thời lượng hoặc cách trình bày trong kịch bản.
 
+## Nghe thử và chọn giọng TTS
+
+Mẫu tiếng Việt dùng VieNeu 3.8.3, v3 Turbo, với **25 giọng preset**. Xem [danh sách đầy đủ và hướng dẫn nghe thử](docs/tts-voices.md).
+
+Sau khi cài Python 3.11 và `python -m pip install vieneu==3.8.3`:
+
+```powershell
+npm run voices:list
+npm run voices:generate
+npm run voices:preview
+```
+
+Mở [trang nghe thử](http://localhost:3052), nghe cùng một câu ở từng giọng, chọn giọng/tốc độ rồi copy yêu cầu vào cuộc trò chuyện. Chọn trên trang không tự đổi giọng của tập mẫu. Âm thanh nghe thử được tạo trên máy và lưu ngoài Git trong `exports/voice-preview/`.
+
 ## Cài đặt và xem các tập mẫu
 
 Cần Node.js 22 LTS và npm:

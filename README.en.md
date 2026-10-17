@@ -47,6 +47,20 @@ First enter your script in [episode/script.md](episode/script.md). Copy the enti
 
 Preserve the example's drawing style and layout while adapting the designs to the topic. Its Trần-dynasty characters and costumes are example assets, not requirements for every episode. You can request a different voice, duration, or presentation style.
 
+## Audition and select a TTS voice
+
+The Vietnamese example uses VieNeu 3.8.3, v3 Turbo, with **25 preset voices**. See the [complete voice catalog and audition guide](docs/tts-voices.md), including an English quick start.
+
+After installing Python 3.11 and running `python -m pip install vieneu==3.8.3`:
+
+```powershell
+npm run voices:list
+npm run voices:generate
+npm run voices:preview
+```
+
+Open the [local audition page](http://localhost:3052), compare the same sentence across voices, select a voice and playback speed, then copy the request into your episode conversation. Selecting a voice does not modify the example. Samples are generated on your machine in `exports/voice-preview/` and excluded from Git.
+
 ## Install and preview the example
 
 Requires Node.js 22 LTS and npm:
