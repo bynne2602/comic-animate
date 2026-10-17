@@ -80,7 +80,7 @@ Các lệnh `audio:*` chỉ tái tạo âm thanh Diên Hồng. WAV mẫu ở t�
 
 ## Kho mã nguồn và quyền sử dụng
 
-Repo riêng tư: [bynne2602/history-vn](https://github.com/bynne2602/history-vn). Mã nguồn và tài nguyên cần dựng được đưa lên Git; `node_modules/`, `exports/`, cache và file môi trường được bỏ qua. MP4 không đi kèm khi clone repo.
+Repo công khai: [bynne2602/history-vn](https://github.com/bynne2602/history-vn). Mã nguồn và tài nguyên cần dựng được đưa lên Git; `node_modules/`, `exports/`, cache và file môi trường được bỏ qua. MP4 không đi kèm khi clone repo.
 
 Copyright (c) 2026 bynne2602. Dự án được cấp phép theo **GNU General Public License phiên bản 3 (GPL-3.0-only)**. Xem toàn văn tại [LICENSE](LICENSE).
 
