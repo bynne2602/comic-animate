@@ -84,7 +84,7 @@ These `audio:*` commands regenerate only the Vietnamese Diên Hồng example. It
 
 ## Source code
 
-[github.com/bynne2602/history-vn](https://github.com/bynne2602/history-vn)
+[github.com/bynne2602/comic-animate](https://github.com/bynne2602/comic-animate)
 
 ## License
 

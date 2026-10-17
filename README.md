@@ -84,7 +84,7 @@ Các lệnh `audio:*` chỉ tái tạo âm thanh Diên Hồng. WAV mẫu ở t�
 
 ## Mã nguồn
 
-[github.com/bynne2602/history-vn](https://github.com/bynne2602/history-vn)
+[github.com/bynne2602/comic-animate](https://github.com/bynne2602/comic-animate)
 
 ## Giấy phép
 

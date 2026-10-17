@@ -1,5 +1,5 @@
 {
-  "project": "history-vn",
+  "project": "comic-animate",
   "files": [
     {
       "path": ".gitignore",
@@ -78,13 +78,13 @@
     },
     {
       "path": "package-lock.json",
-      "bytes": 137838,
-      "sha256": "036d73bf648eec36eab806d35fd20460511d9ef2557917f5e2d81d141a5393b4"
+      "bytes": 137844,
+      "sha256": "e271ae10d8eef9b65c993200f1fcc6d456d3877b26dc64b87a82c99662c44223"
     },
     {
       "path": "package.json",
-      "bytes": 992,
-      "sha256": "0d1e63a131dacee28356f940ddb23e07ccd1020543289dac331dfe52de2c93bf"
+      "bytes": 995,
+      "sha256": "26e8dfa6effea10f34200e4b2411aca30973663d8ea90d3fcb72938b5310ab83"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6372,
-      "sha256": "252d5e798118eee8d98b71e31969fec79344cacd0f4f8a9626a47584165040d5"
+      "bytes": 6378,
+      "sha256": "e67a24696295e1f5013e5f8939d610f48324c0fbc01c911d3180754059cb0e65"
     },
     {
       "path": "remotion.config.ts",
@@ -178,8 +178,8 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 5590,
-      "sha256": "76a7bfd7c9876d03c83c840742c01780cd748c2516c016223bdf041969247cc5"
+      "bytes": 5596,
+      "sha256": "2f4cb92ed83ee9e60a0b277a0ea295295240cbe94cb1f29e29e7551d5a0e4629"
     },
     {
       "path": "AGENTS.md",
