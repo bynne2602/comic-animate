@@ -1,0 +1,3 @@
+# Client: https://github.com/rany2/edge-tts
+# Microsoft Edge online speech service; internet access required.
+edge-tts==7.3.1

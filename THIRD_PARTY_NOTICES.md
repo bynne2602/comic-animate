@@ -29,3 +29,16 @@ Trang nghe thử là giao diện của Comic Animate sử dụng âm thanh do Vi
 Comic Animate's GPL-3.0-only license does not replace third-party licenses. VieNeu and its model assets retain their upstream licenses and attribution. Other dependencies also retain their respective licenses; this notice documents the VieNeu integration, not an exhaustive dependency inventory.
 
 Giấy phép GPL-3.0-only của Comic Animate không thay thế giấy phép riêng của VieNeu hoặc các thư viện, model và tài nguyên bên thứ ba.
+
+## edge-tts and Microsoft Edge speech service
+
+Comic Animate uses **[edge-tts](https://github.com/rany2/edge-tts)**, developed by **rany2**, as an external Python client for **Microsoft Edge's online text-to-speech service**, primarily for non-Vietnamese narration. This is not a Microsoft client library or a speech model developed by Comic Animate. Requests send the supplied text to Microsoft's service; internet access is required.
+
+Comic Animate dùng client Python **edge-tts** của **rany2** để tạo lời kể tiếng nước ngoài qua dịch vụ giọng nói trực tuyến Microsoft Edge. Phần mềm này không phải SDK chính thức của Microsoft. Văn bản cần đọc được gửi tới dịch vụ Microsoft.
+
+- Pinned package: `edge-tts==7.3.1` in [tools/requirements-edge-tts.txt](tools/requirements-edge-tts.txt).
+- Integration: [tools/edge_voice.py](tools/edge_voice.py) lists voices, generates auditions and writes narration MP3 files.
+- Client license: LGPLv3 for most client files, MIT for `src/edge_tts/srt_composer.py`, as stated in the upstream distribution. The original combined license text is preserved at [third_party/licenses/edge-tts-LICENSE](third_party/licenses/edge-tts-LICENSE).
+- Microsoft owns and operates the online speech service and voices; they are not redistributed as local model weights in this repo. The client's open-source license does not grant independent rights to Microsoft's service or replace the service's applicable terms: [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement).
+
+The `npm run edge:*` commands do not change the existing VieNeu example. Both integrations retain their own attribution and upstream licenses.

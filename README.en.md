@@ -35,7 +35,7 @@ If the aspect ratio is unspecified, the assistant asks before laying out scenes.
 First enter your script in [episode/script.md](episode/script.md). Copy the entire prompt below, replace `[EPISODE TITLE]`, `[ASPECT RATIO]`, `[RESOLUTION]`, and `[FPS]` with your settings (for example: 16:9, 1920×1080, 30), and paste it into the conversation opened in this repository.
 
 ```text
-/remotion-create Create a storytelling video titled "[EPISODE TITLE]" from the script I supplied in episode/script.md. Take the topic from my script; it is not limited to Vietnamese history. Use example/ and the original visual components in src/ to preserve the comic style, layered scenery, and blue-clothed presenter outside the panel. Adapt characters, costumes, props, and settings to the content. Use my selected settings: [ASPECT RATIO] aspect ratio, [RESOLUTION] resolution, and [FPS] fps, with captions aligned to the narration. Design the layout for this frame; ask me before proceeding if settings are missing or dimensions do not match the ratio. For Vietnamese narration, use Hải Đăng at 95% speed unless I request another voice; for another language, confirm a suitable voice before generating audio. Follow my script; if it is missing, wait for me to provide it. Open Remotion Studio for preview and create and export a 30-second MP4 demo for my approval before making the full video. If the script is shorter than 30 seconds, report its length and let me decide how to proceed. Preserve the example and save the new episode in its own directory.
+/remotion-create Create a storytelling video titled "[EPISODE TITLE]" from the script I supplied in episode/script.md. Take the topic from my script; it is not limited to Vietnamese history. Use example/ and the original visual components in src/ to preserve the comic style, layered scenery, and blue-clothed presenter outside the panel. Adapt characters, costumes, props, and settings to the content. Use my selected settings: [ASPECT RATIO] aspect ratio, [RESOLUTION] resolution, and [FPS] fps, with captions aligned to the narration. Design the layout for this frame; ask me before proceeding if settings are missing or dimensions do not match the ratio. For Vietnamese narration, use Hải Đăng at 95% speed unless I request another voice; for another language, use Edge TTS and list voices for its locale so I can audition and select a voice before narration is generated. Follow my script; if it is missing, wait for me to provide it. Open Remotion Studio for preview and create and export a 30-second MP4 demo for my approval before making the full video. If the script is shorter than 30 seconds, report its length and let me decide how to proceed. Preserve the example and save the new episode in its own directory.
 ```
 
 ## Default visual style and narration
@@ -43,7 +43,7 @@ First enter your script in [episode/script.md](episode/script.md). Copy the enti
 - Aspect ratio, resolution, and frame rate follow user settings; 9:16 is not mandatory.
 - Flat-colored characters with black outlines and softly colored, layered scenery.
 - Comic panels, speech bubbles, and a blue-clothed presenter outside the panel.
-- For Vietnamese narration: Hải Đăng at 95% speed. For other languages, use a suitable voice selected with the user. The bundled voice-generation scripts currently serve the Vietnamese example.
+- For Vietnamese narration: Hải Đăng at 95% speed. For other languages, use Edge TTS and audition voices for the selected locale, unless the user requests a different engine.
 
 Preserve the example's drawing style and layout while adapting the designs to the topic. Its Trần-dynasty characters and costumes are example assets, not requirements for every episode. You can request a different voice, duration, or presentation style.
 
@@ -62,6 +62,19 @@ npm run voices:preview
 ```
 
 Open the [local audition page](http://localhost:3052), compare the same sentence across voices, select a voice and playback speed, then copy the request into your episode conversation. Selecting a voice does not modify the example. Samples are generated on your machine in `exports/voice-preview/` and excluded from Git.
+
+## Foreign-language narration with Edge TTS
+
+Uses **[rany2/edge-tts](https://github.com/rany2/edge-tts)**, a client for Microsoft Edge's online speech service. Internet access is required; narration text is sent to Microsoft's service. Vietnamese defaults to VieNeu; other languages use Edge TTS unless you select another engine.
+
+```powershell
+python -m pip install -r tools/requirements-edge-tts.txt
+npm run edge:voices -- --locale en-US
+npm run edge:generate -- --locale en-US --limit 4
+npm run voices:preview
+```
+
+Open the [Edge TTS audition page](http://localhost:3052/edge/), select a voice, and copy the request into your episode conversation. Use `ja-JP` for Japanese or another supported locale. See the [Edge TTS narration guide](docs/edge-tts.md) and [client attribution and license](THIRD_PARTY_NOTICES.md#edge-tts-and-microsoft-edge-speech-service).
 
 ## Install and preview the example
 

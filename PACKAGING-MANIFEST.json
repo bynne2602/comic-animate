@@ -83,8 +83,8 @@
     },
     {
       "path": "package.json",
-      "bytes": 1180,
-      "sha256": "76cd98770153479187bf88c6a24fbbbfa0ef4d038c566f560e2d62c01196d4e2"
+      "bytes": 1348,
+      "sha256": "8ac0695ebfd9e17426e3f78cfa4d1a0e55c3b14598fbc84f02dac94461dcd710"
     },
     {
       "path": "project.json",
@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9189,
-      "sha256": "6c2a12fa2261c8c670c309818edb587181a0f5dc856b6dda8a4a58374e36a5dc"
+      "bytes": 10142,
+      "sha256": "873fe745bdd9056dc48ef686e5b789df6c68fd9ae674d2a1eabb7c8fd05725d3"
     },
     {
       "path": "remotion.config.ts",
@@ -178,18 +178,18 @@
     },
     {
       "path": "README.en.md",
-      "bytes": 8211,
-      "sha256": "599e55f62109d569ca85d454561097b646a62a5171dd8b3cb4cf7ea870f74fde"
+      "bytes": 9131,
+      "sha256": "7884b1f4ba0ebef497f0ed46755400474a632585119c02abd56bb52e49d02173"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 3584,
-      "sha256": "a41a8af9f16f1f8bf8adf50d31e3c3d5b4c5a7b9ad4865b75b92c4520752cb03"
+      "bytes": 3834,
+      "sha256": "0d0b49505947a6587d63a6d0392083249760ba7d9b5ce6552c2505e46cae3414"
     },
     {
       "path": "episode/script.md",
-      "bytes": 936,
-      "sha256": "46b6a52b26aa2356d65638f52b1b5e7883f1b32b6e70f72a5c7e2040cf888b40"
+      "bytes": 1122,
+      "sha256": "b0448da81226be87bb39e53113701f3919edfb6c86b02f66f90a270692b53504"
     },
     {
       "path": "docs/tts-voices.md",
@@ -203,23 +203,43 @@
     },
     {
       "path": "tools/voice-preview.mjs",
-      "bytes": 1341,
-      "sha256": "8874c8ea9b17aac3dd646f39fa85e59c7cce2ad243801a2cde1151fdf45125f5"
+      "bytes": 1567,
+      "sha256": "f570efa7666adc64718663ec162a9e567b39abf8c1608379e708b5af945d1e3e"
     },
     {
       "path": "tools/voice-preview.html",
-      "bytes": 5552,
-      "sha256": "4577c66356ce11a724bdf9c6ba7fde5a5b2302243e76c8e18d7ca7249730a039"
+      "bytes": 5955,
+      "sha256": "796eec3342ff93cd6defcf5b7a8622e16e202dd63a4862fbc038fd5872a41733"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2873,
-      "sha256": "6dc5c4b1034dc3ca16f9fd47ced4623f21c12bc0a5097bcb0484e1b43a8ad3a9"
+      "bytes": 4592,
+      "sha256": "ce85964a1782ecc2a05e7bc4c6669f126b0437f350e9f123231adb90edb19035"
     },
     {
       "path": "third_party/licenses/VieNeu-LICENSE",
       "bytes": 11357,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "tools/edge_voice.py",
+      "bytes": 5653,
+      "sha256": "f07033f51e4ec83f0b07ba85149ecf2ddffe3560327440fafafeeb40ec043bc2"
+    },
+    {
+      "path": "tools/requirements-edge-tts.txt",
+      "bytes": 126,
+      "sha256": "579e65b2c58c9d02e68b6138ea3150fc9773b2bc1b404d4291d10485d574d2f6"
+    },
+    {
+      "path": "docs/edge-tts.md",
+      "bytes": 4952,
+      "sha256": "3a22dabf84fd0965642e86184d93c7bfde0cdca73c43ab9222f60525c23d0ef3"
+    },
+    {
+      "path": "third_party/licenses/edge-tts-LICENSE",
+      "bytes": 9041,
+      "sha256": "3613045a46a5bce847f80eadbbf013e4260ef19d728ffd061d61e792689ec3a8"
     }
   ]
 }

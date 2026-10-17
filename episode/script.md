@@ -22,6 +22,11 @@
 
 <!-- Mọi chủ đề đều được hỗ trợ trong quy trình dựng, không chỉ lịch sử Việt Nam. Ghi ngôn ngữ lời kể và giọng mong muốn nếu cần. -->
 
+- Ngôn ngữ / locale:
+- Engine TTS (VieNeu cho tiếng Việt; Edge TTS cho ngôn ngữ khác, hoặc theo yêu cầu):
+- Tên giọng / ShortName:
+- Tốc độ giọng đọc:
+
 ## Ghi chú hình ảnh (tùy chọn)
 
 <!-- Nhân vật, bối cảnh, thời đại, chi tiết chuyên môn hoặc nguồn tham khảo cần bám sát. -->

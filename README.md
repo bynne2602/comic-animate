@@ -35,7 +35,7 @@ Nếu chưa chọn tỷ lệ khung hình, trợ lý hỏi trước khi bố trí
 Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đó copy toàn bộ prompt dưới đây và thay `[TIÊU ĐỀ TẬP]`, `[TỶ LỆ]`, `[ĐỘ PHÂN GIẢI]` và `[FPS]` bằng thiết lập của bạn (ví dụ: 16:9, 1920×1080, 30). Dán prompt trong cuộc trò chuyện tại thư mục repo này.
 
 ```text
-/remotion-create Tạo video kể chuyện có tiêu đề "[TIÊU ĐỀ TẬP]" từ kịch bản tôi đã nhập trong episode/script.md. Chủ đề lấy từ kịch bản, không giới hạn ở lịch sử Việt Nam. Tham chiếu example/ và mã nguồn hình ảnh gốc trong src/ để giữ phong cách comic, bối cảnh nhiều lớp và người kể áo xanh ngoài khung; điều chỉnh nhân vật, trang phục, đạo cụ và bối cảnh cho đúng nội dung. Dựng theo thiết lập tôi chọn: tỷ lệ [TỶ LỆ], độ phân giải [ĐỘ PHÂN GIẢI], [FPS] fps, có phụ đề khớp lời kể. Thiết kế bố cục theo khung hình này; nếu thiết lập còn thiếu hoặc không khớp tỷ lệ, hỏi tôi trước khi dựng. Với lời kể tiếng Việt, dùng giọng Hải Đăng tốc độ 95% nếu tôi không yêu cầu giọng khác; với ngôn ngữ khác, xác nhận giọng phù hợp trước khi tạo âm thanh. Bám kịch bản đã cung cấp; nếu file chưa có kịch bản, hãy chờ tôi nhập. Mở Remotion Studio để xem trước, dựng và xuất demo MP4 30 giây để tôi duyệt trước khi làm bản full. Nếu kịch bản ngắn hơn 30 giây, báo lại để tôi quyết định. Giữ nguyên tập mẫu và lưu tập mới vào thư mục riêng.
+/remotion-create Tạo video kể chuyện có tiêu đề "[TIÊU ĐỀ TẬP]" từ kịch bản tôi đã nhập trong episode/script.md. Chủ đề lấy từ kịch bản, không giới hạn ở lịch sử Việt Nam. Tham chiếu example/ và mã nguồn hình ảnh gốc trong src/ để giữ phong cách comic, bối cảnh nhiều lớp và người kể áo xanh ngoài khung; điều chỉnh nhân vật, trang phục, đạo cụ và bối cảnh cho đúng nội dung. Dựng theo thiết lập tôi chọn: tỷ lệ [TỶ LỆ], độ phân giải [ĐỘ PHÂN GIẢI], [FPS] fps, có phụ đề khớp lời kể. Thiết kế bố cục theo khung hình này; nếu thiết lập còn thiếu hoặc không khớp tỷ lệ, hỏi tôi trước khi dựng. Với lời kể tiếng Việt, dùng giọng Hải Đăng tốc độ 95% nếu tôi không yêu cầu giọng khác; với ngôn ngữ khác, dùng Edge TTS và lấy danh sách giọng theo locale để tôi nghe thử trước khi chốt giọng. Bám kịch bản đã cung cấp; nếu file chưa có kịch bản, hãy chờ tôi nhập. Mở Remotion Studio để xem trước, dựng và xuất demo MP4 30 giây để tôi duyệt trước khi làm bản full. Nếu kịch bản ngắn hơn 30 giây, báo lại để tôi quyết định. Giữ nguyên tập mẫu và lưu tập mới vào thư mục riêng.
 ```
 
 ## Phong cách mặc định
@@ -43,7 +43,7 @@ Nhập kịch bản vào [episode/script.md](episode/script.md) trước, sau đ
 - Tỷ lệ, độ phân giải và fps theo thiết lập người dùng; không cố định 9:16.
 - Nhân vật màu phẳng, viền đen; bối cảnh nhiều lớp với màu dịu.
 - Khung comic, ô thoại và người kể áo xanh đứng ngoài khung.
-- Với lời kể tiếng Việt: giọng Hải Đăng, tốc độ 95%. Nếu kịch bản dùng ngôn ngữ khác, chọn giọng phù hợp theo yêu cầu người dùng; bộ tạo giọng đi kèm hiện là công cụ cho tập mẫu tiếng Việt.
+- Với lời kể tiếng Việt: giọng Hải Đăng, tốc độ 95%. Với ngôn ngữ khác: dùng Edge TTS và chọn giọng theo locale sau khi nghe thử, trừ khi người dùng yêu cầu engine khác.
 
 Trợ lý giữ phong cách nét vẽ và bố cục của tập mẫu, đồng thời điều chỉnh tạo hình theo chủ đề. Nhân vật và trang phục thời Trần chỉ là tài nguyên của tập mẫu, không bắt buộc dùng cho mọi tập. Bạn có thể yêu cầu đổi giọng, thời lượng hoặc cách trình bày trong kịch bản.
 
@@ -62,6 +62,19 @@ npm run voices:preview
 ```
 
 Mở [trang nghe thử](http://localhost:3052), nghe cùng một câu ở từng giọng, chọn giọng/tốc độ rồi copy yêu cầu vào cuộc trò chuyện. Chọn trên trang không tự đổi giọng của tập mẫu. Âm thanh nghe thử được tạo trên máy và lưu ngoài Git trong `exports/voice-preview/`.
+
+## Giọng nước ngoài với Edge TTS
+
+Tích hợp **[edge-tts](https://github.com/rany2/edge-tts)** của rany2 để dùng dịch vụ TTS trực tuyến Microsoft Edge. Cần Internet; văn bản được gửi tới dịch vụ Microsoft. Tiếng Việt mặc định dùng VieNeu; ngôn ngữ khác dùng Edge TTS, trừ khi bạn chọn engine khác.
+
+```powershell
+python -m pip install -r tools/requirements-edge-tts.txt
+npm run edge:voices -- --locale en-US
+npm run edge:generate -- --locale en-US --limit 4
+npm run voices:preview
+```
+
+Mở [nghe thử Edge TTS](http://localhost:3052/edge/), chọn giọng rồi copy yêu cầu cho tập mới. Dùng locale `ja-JP` cho tiếng Nhật; `--list` lấy danh sách hiện tại từ dịch vụ. Xem [hướng dẫn tạo lời kể Edge TTS](docs/edge-tts.md) và [ghi nhận nguồn, giấy phép client](THIRD_PARTY_NOTICES.md#edge-tts-and-microsoft-edge-speech-service).
 
 ## Cài đặt và xem các tập mẫu
 
