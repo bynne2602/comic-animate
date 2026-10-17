@@ -118,8 +118,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6102,
-      "sha256": "5111a67ba2f2fc8f8a3982eab93224da77bd6bc5a890e7abd4a50bbb93cce33f"
+      "bytes": 5920,
+      "sha256": "0437f7c12fe9f603c41ecba1c304c07a9a47cd4323ef7f0b3c2920fd3dc14bf9"
     },
     {
       "path": "remotion.config.ts",
@@ -143,8 +143,8 @@
     },
     {
       "path": "src/index.ts",
-      "bytes": 116,
-      "sha256": "37a3f372b32fab4c0604cae6589569572640b4a50b2447c26250ccf085c53e4e"
+      "bytes": 119,
+      "sha256": "1cc764652e997f1e9a3c7126f73997168015db6ac7fad97d30c492f03b356929"
     },
     {
       "path": "src/PortraitCast.tsx",

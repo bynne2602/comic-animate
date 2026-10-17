@@ -44,7 +44,6 @@ Mở [Remotion Studio](http://localhost:3041) và chọn composition muốn xem.
 | Tập mẫu | Composition | Tư liệu |
 | --- | --- | --- |
 | Diên Hồng | `DienHong-Vertical` | [example/](example/) — kịch bản, phụ đề, ghi chú và công cụ âm thanh |
-| Bạch Đằng 1288 | `BachDang-Demo-30s` | [bach-dang/](bach-dang/) — demo 30 giây đã dựng |
 
 ## Các thư mục chính
 
@@ -55,7 +54,6 @@ Mở [Remotion Studio](http://localhost:3041) và chọn composition muốn xem.
 | [example/](example/) | Tư liệu tập Diên Hồng dùng làm mẫu phong cách |
 | [src/](src/) | Mã Remotion, nhân vật và bối cảnh dùng lại |
 | [public/](public/) | Âm thanh và timeline của các composition đã có |
-| [bach-dang/](bach-dang/) | Tư liệu của demo Bạch Đằng đã có |
 | [content/](content/) | Timeline và nhạc nguồn của tập mẫu |
 | `exports/` | Video xuất trên máy, không đưa lên Git |
 
